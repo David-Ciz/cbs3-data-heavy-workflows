@@ -1,0 +1,56 @@
+[2025-09-08T17:21:21.339+0000] {processor.py:186} INFO - Started process (PID=46704) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:21.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T17:21:21.343+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:21.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:21.889+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:21.897+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:21.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:21:21.906+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:21.906+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:21:21.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.586 seconds
+[2025-09-08T17:21:52.019+0000] {processor.py:186} INFO - Started process (PID=46771) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:52.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T17:21:52.022+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:52.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:52.522+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:21:52.530+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:52.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:21:52.538+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:52.537+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:21:52.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.530 seconds
+[2025-09-08T17:22:22.953+0000] {processor.py:186} INFO - Started process (PID=46838) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:22:22.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T17:22:22.965+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:22.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:22:23.547+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T17:22:23.556+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:23.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:22:23.565+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:23.565+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:22:23.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.633 seconds
+[2025-09-08T18:27:17.104+0000] {processor.py:186} INFO - Started process (PID=46908) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T18:27:17.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T18:27:17.107+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:17.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T18:27:17.570+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T18:27:17.637+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:17.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T18:27:17.645+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:17.645+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T18:27:17.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.556 seconds
+[2025-09-08T19:23:33.119+0000] {processor.py:186} INFO - Started process (PID=46981) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T19:23:33.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T19:23:33.123+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:33.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T19:23:33.707+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T19:23:33.725+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:33.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T19:23:33.733+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:33.733+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T19:23:33.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.632 seconds
+[2025-09-08T20:47:07.214+0000] {processor.py:186} INFO - Started process (PID=47054) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T20:47:07.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T20:47:07.216+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:07.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T20:47:07.734+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T20:47:07.797+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:07.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T20:47:07.803+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:07.803+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T20:47:07.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.605 seconds
+[2025-09-08T22:21:42.168+0000] {processor.py:186} INFO - Started process (PID=47127) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T22:21:42.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T22:21:42.172+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:42.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T22:21:42.714+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T22:21:42.734+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:42.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T22:21:42.741+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:42.741+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T22:21:42.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.586 seconds
+[2025-09-08T23:42:14.092+0000] {processor.py:186} INFO - Started process (PID=47200) to work on /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T23:42:14.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3_run_ptraj.py for tasks to queue
+[2025-09-08T23:42:14.095+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:14.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T23:42:14.847+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/3_run_ptraj.py
+[2025-09-08T23:42:14.927+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:14.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T23:42:14.938+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:14.937+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T23:42:14.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3_run_ptraj.py took 0.867 seconds

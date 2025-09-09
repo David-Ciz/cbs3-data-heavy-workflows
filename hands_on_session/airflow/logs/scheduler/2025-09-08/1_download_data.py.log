@@ -1,0 +1,826 @@
+[2025-09-08T13:19:11.565+0000] {processor.py:186} INFO - Started process (PID=41195) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:11.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:19:11.568+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:11.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:11.899+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:11.950+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:11.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:19:11.955+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:11.955+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:19:11.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.402 seconds
+[2025-09-08T13:19:42.624+0000] {processor.py:186} INFO - Started process (PID=41244) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:42.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:19:42.628+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:42.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:42.964+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:19:42.978+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:42.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:19:42.984+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:19:42.984+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:19:42.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.374 seconds
+[2025-09-08T13:20:13.117+0000] {processor.py:186} INFO - Started process (PID=41293) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:13.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:20:13.121+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:13.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:13.486+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:13.493+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:13.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:20:13.501+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:13.501+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:20:13.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.401 seconds
+[2025-09-08T13:20:43.551+0000] {processor.py:186} INFO - Started process (PID=41342) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:43.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:20:43.554+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:43.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:43.925+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:20:43.995+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:43.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:20:44.000+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:20:44.000+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:20:44.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.464 seconds
+[2025-09-08T13:21:14.302+0000] {processor.py:186} INFO - Started process (PID=41391) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:14.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:21:14.306+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:14.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:14.672+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:14.690+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:14.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:21:14.698+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:14.697+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:21:14.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.410 seconds
+[2025-09-08T13:21:44.792+0000] {processor.py:186} INFO - Started process (PID=41440) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:44.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:21:44.796+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:44.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:45.144+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:21:45.151+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:45.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:21:45.158+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:21:45.158+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:21:45.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.382 seconds
+[2025-09-08T13:22:15.841+0000] {processor.py:186} INFO - Started process (PID=41489) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:15.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:22:15.846+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:15.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:16.193+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:16.379+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:16.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:22:16.384+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:16.384+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:22:16.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.557 seconds
+[2025-09-08T13:22:46.552+0000] {processor.py:186} INFO - Started process (PID=41538) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:46.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:22:46.555+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:46.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:46.917+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:22:46.931+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:46.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:22:47.027+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:22:47.027+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:22:47.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.489 seconds
+[2025-09-08T13:23:17.135+0000] {processor.py:186} INFO - Started process (PID=41587) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:17.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:23:17.138+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:17.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:17.620+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:17.626+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:17.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:23:17.633+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:17.633+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:23:17.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.512 seconds
+[2025-09-08T13:23:47.735+0000] {processor.py:186} INFO - Started process (PID=41636) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:47.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:23:47.737+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:47.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:48.189+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:23:48.239+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:48.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:23:48.244+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:23:48.244+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:23:48.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.522 seconds
+[2025-09-08T13:24:18.834+0000] {processor.py:186} INFO - Started process (PID=41685) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:18.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:24:18.837+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:18.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:19.355+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:19.371+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:19.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:24:19.379+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:19.379+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:24:19.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.560 seconds
+[2025-09-08T13:24:49.579+0000] {processor.py:186} INFO - Started process (PID=41734) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:49.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:24:49.581+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:49.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:50.024+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:24:50.029+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:50.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:24:50.036+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:24:50.036+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:24:50.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.468 seconds
+[2025-09-08T13:25:20.579+0000] {processor.py:186} INFO - Started process (PID=41783) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:20.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:25:20.581+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:20.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:21.072+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:21.124+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:21.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:25:21.130+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:21.130+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:25:21.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.563 seconds
+[2025-09-08T13:25:51.686+0000] {processor.py:186} INFO - Started process (PID=41832) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:51.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:25:51.688+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:51.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:52.139+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:25:52.152+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:52.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:25:52.158+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:25:52.158+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:25:52.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.484 seconds
+[2025-09-08T13:26:22.321+0000] {processor.py:186} INFO - Started process (PID=41881) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:22.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:26:22.324+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:22.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:22.765+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:22.770+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:22.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:26:22.776+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:22.776+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:26:22.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.467 seconds
+[2025-09-08T13:26:52.818+0000] {processor.py:186} INFO - Started process (PID=41930) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:52.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:26:52.820+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:52.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:53.264+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:26:53.314+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:53.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:26:53.320+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:26:53.320+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:26:53.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.515 seconds
+[2025-09-08T13:27:23.476+0000] {processor.py:186} INFO - Started process (PID=41979) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:23.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:27:23.479+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:23.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:23.984+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:24.000+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:23.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:27:24.008+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:24.008+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:27:24.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.546 seconds
+[2025-09-08T13:27:54.256+0000] {processor.py:186} INFO - Started process (PID=42028) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:54.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:27:54.259+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:54.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:54.733+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:27:54.739+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:54.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:27:54.745+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:27:54.745+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:27:54.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.503 seconds
+[2025-09-08T13:28:17.096+0000] {processor.py:186} INFO - Started process (PID=42059) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:17.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:28:17.100+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:17.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:17.680+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:17.698+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:17.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:28:17.710+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:17.709+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:28:17.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.631 seconds
+[2025-09-08T13:28:40.958+0000] {processor.py:186} INFO - Started process (PID=42108) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:40.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:28:40.961+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:40.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:41.478+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:28:41.535+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:41.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:28:41.540+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:28:41.540+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:28:41.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.600 seconds
+[2025-09-08T13:29:11.604+0000] {processor.py:186} INFO - Started process (PID=42157) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:11.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:29:11.606+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:11.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:11.963+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:11.978+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:11.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:29:11.985+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:11.985+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:29:11.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.393 seconds
+[2025-09-08T13:29:42.487+0000] {processor.py:186} INFO - Started process (PID=42206) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:42.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:29:42.490+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:42.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:42.908+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:29:42.915+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:42.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:29:42.923+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:29:42.923+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:29:42.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.451 seconds
+[2025-09-08T13:30:13.852+0000] {processor.py:186} INFO - Started process (PID=42255) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:13.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:30:13.854+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:13.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:14.273+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:14.337+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:14.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:30:14.343+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:14.343+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:30:14.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.505 seconds
+[2025-09-08T13:30:45.288+0000] {processor.py:186} INFO - Started process (PID=42304) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:45.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:30:45.289+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:45.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:45.641+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:30:45.655+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:45.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:30:45.662+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:30:45.662+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:30:45.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.385 seconds
+[2025-09-08T13:31:16.647+0000] {processor.py:186} INFO - Started process (PID=42353) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:16.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:31:16.649+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:16.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:17.058+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:17.066+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:17.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:31:17.075+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:17.075+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:31:17.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.443 seconds
+[2025-09-08T13:31:47.454+0000] {processor.py:186} INFO - Started process (PID=42402) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:47.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:31:47.457+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:47.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:47.844+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:31:47.910+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:47.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:31:47.917+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:31:47.917+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:31:47.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.477 seconds
+[2025-09-08T13:32:14.227+0000] {processor.py:186} INFO - Started process (PID=42451) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:14.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:32:14.229+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:14.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:14.600+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:14.606+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:14.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:32:14.614+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:14.613+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:32:14.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.399 seconds
+[2025-09-08T13:32:45.200+0000] {processor.py:186} INFO - Started process (PID=42500) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:45.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T13:32:45.201+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:45.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:45.590+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T13:32:45.596+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:45.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T13:32:45.605+0000] {logging_mixin.py:190} INFO - [2025-09-08T13:32:45.604+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T13:32:45.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.417 seconds
+[2025-09-08T14:38:10.154+0000] {processor.py:186} INFO - Started process (PID=42506) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T14:38:10.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T14:38:10.156+0000] {logging_mixin.py:190} INFO - [2025-09-08T14:38:10.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T14:38:10.579+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T14:38:10.660+0000] {logging_mixin.py:190} INFO - [2025-09-08T14:38:10.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T14:38:10.668+0000] {logging_mixin.py:190} INFO - [2025-09-08T14:38:10.668+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T14:38:10.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.528 seconds
+[2025-09-08T15:48:36.838+0000] {processor.py:186} INFO - Started process (PID=42555) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T15:48:36.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T15:48:36.840+0000] {logging_mixin.py:190} INFO - [2025-09-08T15:48:36.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T15:48:37.232+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T15:48:37.255+0000] {logging_mixin.py:190} INFO - [2025-09-08T15:48:37.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T15:48:37.266+0000] {logging_mixin.py:190} INFO - [2025-09-08T15:48:37.266+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T15:48:37.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.445 seconds
+[2025-09-08T16:11:56.707+0000] {processor.py:186} INFO - Started process (PID=42604) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:11:56.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:11:56.713+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:11:56.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:11:57.223+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:11:57.480+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:11:57.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:11:57.488+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:11:57.487+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:11:57.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.806 seconds
+[2025-09-08T16:12:27.908+0000] {processor.py:186} INFO - Started process (PID=42659) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:27.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:12:27.910+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:27.910+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:28.286+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:28.305+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:28.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:12:28.312+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:28.312+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:12:28.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.418 seconds
+[2025-09-08T16:12:58.868+0000] {processor.py:186} INFO - Started process (PID=42706) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:58.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:12:58.871+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:58.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:59.263+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:12:59.432+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:59.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:12:59.442+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:12:59.442+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:12:59.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.592 seconds
+[2025-09-08T16:13:29.490+0000] {processor.py:186} INFO - Started process (PID=42755) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:13:29.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:13:29.493+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:13:29.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:13:29.978+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:13:29.995+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:13:29.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:13:30.002+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:13:30.002+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:13:30.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.526 seconds
+[2025-09-08T16:14:00.525+0000] {processor.py:186} INFO - Started process (PID=42806) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:00.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:14:00.527+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:00.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:00.982+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:01.037+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:01.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:14:01.042+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:01.042+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:14:01.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.528 seconds
+[2025-09-08T16:14:31.509+0000] {processor.py:186} INFO - Started process (PID=42855) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:31.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:14:31.511+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:31.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:31.980+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:14:31.996+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:31.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:14:32.002+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:14:32.002+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:14:32.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.505 seconds
+[2025-09-08T16:15:02.040+0000] {processor.py:186} INFO - Started process (PID=42904) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:02.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:15:02.043+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:02.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:02.481+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:02.531+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:02.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:15:02.536+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:02.536+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:15:02.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.507 seconds
+[2025-09-08T16:15:32.583+0000] {processor.py:186} INFO - Started process (PID=42951) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:32.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:15:32.586+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:32.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:33.121+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:15:33.136+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:33.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:15:33.143+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:15:33.143+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:15:33.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.576 seconds
+[2025-09-08T16:16:03.582+0000] {processor.py:186} INFO - Started process (PID=42996) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:03.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:16:03.585+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:03.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:04.052+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:04.114+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:04.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:16:04.120+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:04.120+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:16:04.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.551 seconds
+[2025-09-08T16:16:30.036+0000] {processor.py:186} INFO - Started process (PID=43045) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:30.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:16:30.039+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:30.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:30.500+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:16:30.505+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:30.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:16:30.511+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:16:30.511+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:16:30.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.491 seconds
+[2025-09-08T16:28:33.787+0000] {processor.py:186} INFO - Started process (PID=43094) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:28:33.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:28:33.792+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:28:33.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:28:34.392+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:28:34.460+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:28:34.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:28:34.475+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:28:34.474+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:28:34.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.707 seconds
+[2025-09-08T16:46:18.908+0000] {processor.py:186} INFO - Started process (PID=43143) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:18.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:46:18.913+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:18.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:19.492+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:19.513+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:19.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:46:19.521+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:19.520+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:46:19.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.632 seconds
+[2025-09-08T16:46:49.927+0000] {processor.py:186} INFO - Started process (PID=43192) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:49.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:46:49.930+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:49.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:50.403+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:46:50.466+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:50.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:46:50.473+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:46:50.473+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:46:50.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.563 seconds
+[2025-09-08T16:47:21.002+0000] {processor.py:186} INFO - Started process (PID=43247) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:21.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:47:21.004+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:21.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:21.447+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:21.462+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:21.462+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:47:21.469+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:21.469+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:47:21.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.480 seconds
+[2025-09-08T16:47:52.457+0000] {processor.py:186} INFO - Started process (PID=43296) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:52.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:47:52.460+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:52.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:52.853+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:47:52.920+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:52.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:47:52.927+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:47:52.927+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:47:52.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.488 seconds
+[2025-09-08T16:48:23.217+0000] {processor.py:186} INFO - Started process (PID=43345) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:23.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:48:23.219+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:23.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:23.593+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:23.609+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:23.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:48:23.616+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:23.616+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:48:23.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.415 seconds
+[2025-09-08T16:48:53.916+0000] {processor.py:186} INFO - Started process (PID=43394) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:53.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:48:53.919+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:53.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:54.296+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:48:54.359+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:54.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:48:54.366+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:48:54.366+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:48:54.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.465 seconds
+[2025-09-08T16:49:24.636+0000] {processor.py:186} INFO - Started process (PID=43443) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:24.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:49:24.639+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:24.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:25.022+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:25.046+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:25.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:49:25.055+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:25.055+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:49:25.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.434 seconds
+[2025-09-08T16:49:55.341+0000] {processor.py:186} INFO - Started process (PID=43492) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:55.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:49:55.343+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:55.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:55.707+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:49:55.773+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:55.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:49:55.780+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:49:55.780+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:49:55.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.455 seconds
+[2025-09-08T16:50:26.055+0000] {processor.py:186} INFO - Started process (PID=43541) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:26.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:50:26.058+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:26.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:26.428+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:26.446+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:26.446+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:50:26.454+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:26.453+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:50:26.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.413 seconds
+[2025-09-08T16:50:56.745+0000] {processor.py:186} INFO - Started process (PID=43590) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:56.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:50:56.748+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:56.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:57.117+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:50:57.178+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:57.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:50:57.186+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:50:57.186+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:50:57.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.547 seconds
+[2025-09-08T16:51:27.605+0000] {processor.py:186} INFO - Started process (PID=43639) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:27.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:51:27.608+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:27.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:27.976+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:27.998+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:27.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:51:28.113+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:28.112+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:51:28.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.523 seconds
+[2025-09-08T16:51:58.180+0000] {processor.py:186} INFO - Started process (PID=43688) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:58.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:51:58.182+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:58.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:58.622+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:51:58.671+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:58.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:51:58.676+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:51:58.676+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:51:58.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.509 seconds
+[2025-09-08T16:52:29.027+0000] {processor.py:186} INFO - Started process (PID=43737) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:52:29.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:52:29.030+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:52:29.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:52:29.401+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:52:29.420+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:52:29.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:52:29.515+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:52:29.514+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:52:29.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.500 seconds
+[2025-09-08T16:53:00.469+0000] {processor.py:186} INFO - Started process (PID=43811) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:00.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:53:00.471+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:00.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:00.930+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:00.984+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:00.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:53:00.990+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:00.990+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:53:01.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.535 seconds
+[2025-09-08T16:53:31.933+0000] {processor.py:186} INFO - Started process (PID=43860) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:31.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:53:31.936+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:31.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:32.396+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:53:32.409+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:32.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:53:32.416+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:53:32.416+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:53:32.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.496 seconds
+[2025-09-08T16:54:03.408+0000] {processor.py:186} INFO - Started process (PID=43909) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:03.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:54:03.412+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:03.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:03.872+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:03.938+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:03.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:54:03.946+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:03.946+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:54:03.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.552 seconds
+[2025-09-08T16:54:34.475+0000] {processor.py:186} INFO - Started process (PID=43964) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:34.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:54:34.478+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:34.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:34.950+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:54:34.957+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:34.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:54:34.964+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:54:34.964+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:54:34.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.505 seconds
+[2025-09-08T16:55:05.020+0000] {processor.py:186} INFO - Started process (PID=44013) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:05.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:55:05.023+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:05.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:05.476+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:05.532+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:05.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:55:05.537+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:05.537+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:55:05.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.528 seconds
+[2025-09-08T16:55:35.637+0000] {processor.py:186} INFO - Started process (PID=44062) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:35.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:55:35.639+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:35.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:36.093+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:55:36.100+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:36.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:55:36.108+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:55:36.108+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:55:36.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.485 seconds
+[2025-09-08T16:56:06.288+0000] {processor.py:186} INFO - Started process (PID=44111) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:06.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:56:06.291+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:06.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:06.750+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:06.815+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:06.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:56:06.822+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:06.822+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:56:06.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.548 seconds
+[2025-09-08T16:56:36.955+0000] {processor.py:186} INFO - Started process (PID=44160) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:36.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:56:36.959+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:36.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:37.434+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:56:37.442+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:37.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:56:37.450+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:56:37.450+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:56:37.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.507 seconds
+[2025-09-08T16:57:07.529+0000] {processor.py:186} INFO - Started process (PID=44209) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:07.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:57:07.531+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:07.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:07.974+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:08.027+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:08.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:57:08.033+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:08.033+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:57:08.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.515 seconds
+[2025-09-08T16:57:38.089+0000] {processor.py:186} INFO - Started process (PID=44258) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:38.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:57:38.092+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:38.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:38.469+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:57:38.481+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:38.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:57:38.491+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:57:38.490+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:57:38.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.415 seconds
+[2025-09-08T16:58:08.817+0000] {processor.py:186} INFO - Started process (PID=44307) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:08.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:58:08.819+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:08.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:09.194+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:09.259+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:09.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:58:09.265+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:09.265+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:58:09.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.460 seconds
+[2025-09-08T16:58:39.317+0000] {processor.py:186} INFO - Started process (PID=44356) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:39.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:58:39.320+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:39.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:39.704+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:58:39.716+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:39.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:58:39.727+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:58:39.727+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:58:39.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.424 seconds
+[2025-09-08T16:59:09.772+0000] {processor.py:186} INFO - Started process (PID=44405) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:09.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:59:09.775+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:09.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:10.139+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:10.206+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:10.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:59:10.211+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:10.211+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:59:10.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.452 seconds
+[2025-09-08T16:59:40.582+0000] {processor.py:186} INFO - Started process (PID=44454) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:40.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T16:59:40.585+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:40.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:40.956+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T16:59:40.965+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:40.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T16:59:40.974+0000] {logging_mixin.py:190} INFO - [2025-09-08T16:59:40.974+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T16:59:40.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.406 seconds
+[2025-09-08T17:00:11.137+0000] {processor.py:186} INFO - Started process (PID=44503) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:11.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:00:11.139+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:11.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:11.510+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:11.578+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:11.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:00:11.583+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:11.583+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:00:11.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.458 seconds
+[2025-09-08T17:00:41.745+0000] {processor.py:186} INFO - Started process (PID=44552) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:41.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:00:41.748+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:41.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:42.130+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:00:42.138+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:42.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:00:42.147+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:00:42.147+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:00:42.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.417 seconds
+[2025-09-08T17:01:12.274+0000] {processor.py:186} INFO - Started process (PID=44601) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:12.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:01:12.277+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:12.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:12.654+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:12.851+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:12.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:01:12.856+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:12.856+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:01:12.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.594 seconds
+[2025-09-08T17:01:43.093+0000] {processor.py:186} INFO - Started process (PID=44656) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:43.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:01:43.095+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:43.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:43.454+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:01:43.469+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:43.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:01:43.476+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:01:43.476+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:01:43.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.395 seconds
+[2025-09-08T17:02:13.552+0000] {processor.py:186} INFO - Started process (PID=44697) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:13.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:02:13.555+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:13.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:13.937+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:13.946+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:13.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:02:13.953+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:13.953+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:02:14.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.521 seconds
+[2025-09-08T17:02:44.236+0000] {processor.py:186} INFO - Started process (PID=44748) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:44.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:02:44.247+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:44.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:44.980+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:02:45.052+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:45.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:02:45.058+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:02:45.058+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:02:45.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.843 seconds
+[2025-09-08T17:03:15.116+0000] {processor.py:186} INFO - Started process (PID=44797) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:15.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:03:15.120+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:15.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:15.722+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:15.742+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:15.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:03:15.751+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:15.751+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:03:15.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.652 seconds
+[2025-09-08T17:03:45.881+0000] {processor.py:186} INFO - Started process (PID=44846) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:45.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:03:45.884+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:45.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:46.355+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:03:46.364+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:46.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:03:46.373+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:03:46.373+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:03:46.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.505 seconds
+[2025-09-08T17:04:16.431+0000] {processor.py:186} INFO - Started process (PID=44895) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:16.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:04:16.434+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:16.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:16.893+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:16.949+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:16.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:04:16.955+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:16.955+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:04:16.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.535 seconds
+[2025-09-08T17:04:47.417+0000] {processor.py:186} INFO - Started process (PID=44950) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:47.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:04:47.419+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:47.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:47.851+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:04:47.862+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:47.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:04:47.868+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:04:47.868+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:04:47.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.463 seconds
+[2025-09-08T17:05:18.078+0000] {processor.py:186} INFO - Started process (PID=44999) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:18.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:05:18.080+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:18.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:18.531+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:18.536+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:18.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:05:18.543+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:18.543+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:05:18.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.477 seconds
+[2025-09-08T17:05:48.677+0000] {processor.py:186} INFO - Started process (PID=45048) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:48.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:05:48.679+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:48.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:49.113+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:05:49.164+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:49.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:05:49.169+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:05:49.169+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:05:49.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.503 seconds
+[2025-09-08T17:06:19.309+0000] {processor.py:186} INFO - Started process (PID=45097) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:19.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:06:19.311+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:19.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:19.771+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:19.788+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:19.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:06:19.796+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:19.796+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:06:19.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.501 seconds
+[2025-09-08T17:06:49.837+0000] {processor.py:186} INFO - Started process (PID=45152) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:49.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:06:49.840+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:49.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:50.288+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:06:50.294+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:50.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:06:50.301+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:06:50.301+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:06:50.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.476 seconds
+[2025-09-08T17:07:20.712+0000] {processor.py:186} INFO - Started process (PID=45207) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:20.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:07:20.714+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:20.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:21.080+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:21.088+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:21.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:07:21.095+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:21.095+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:07:21.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.396 seconds
+[2025-09-08T17:07:51.458+0000] {processor.py:186} INFO - Started process (PID=45262) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:51.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:07:51.460+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:51.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:51.827+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:07:51.891+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:51.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:07:51.898+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:07:51.898+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:07:51.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.454 seconds
+[2025-09-08T17:08:22.380+0000] {processor.py:186} INFO - Started process (PID=45311) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:22.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:08:22.383+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:22.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:22.778+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:22.798+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:22.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:08:22.809+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:22.809+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:08:22.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.448 seconds
+[2025-09-08T17:08:52.902+0000] {processor.py:186} INFO - Started process (PID=45366) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:52.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:08:52.905+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:52.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:53.302+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:08:53.313+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:53.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:08:53.325+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:08:53.325+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:08:53.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.440 seconds
+[2025-09-08T17:09:23.858+0000] {processor.py:186} INFO - Started process (PID=45421) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:23.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:09:23.862+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:23.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:24.236+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:24.243+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:24.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:09:24.251+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:24.251+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:09:24.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.408 seconds
+[2025-09-08T17:09:54.285+0000] {processor.py:186} INFO - Started process (PID=45476) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:54.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:09:54.288+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:54.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:54.655+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:09:54.718+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:54.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:09:54.833+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:09:54.833+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:09:54.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.561 seconds
+[2025-09-08T17:10:25.307+0000] {processor.py:186} INFO - Started process (PID=45537) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:25.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:10:25.309+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:25.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:25.749+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:25.761+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:25.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:10:25.768+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:25.768+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:10:25.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.474 seconds
+[2025-09-08T17:10:55.864+0000] {processor.py:186} INFO - Started process (PID=45592) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:55.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:10:55.866+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:55.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:56.347+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:10:56.353+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:56.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:10:56.359+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:10:56.359+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:10:56.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.509 seconds
+[2025-09-08T17:11:26.408+0000] {processor.py:186} INFO - Started process (PID=45647) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:26.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:11:26.410+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:26.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:26.852+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:26.858+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:26.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:11:26.865+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:26.864+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:11:26.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.468 seconds
+[2025-09-08T17:11:56.951+0000] {processor.py:186} INFO - Started process (PID=45702) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:56.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:11:56.953+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:56.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:57.398+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:11:57.452+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:57.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:11:57.458+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:11:57.458+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:11:57.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.519 seconds
+[2025-09-08T17:12:27.503+0000] {processor.py:186} INFO - Started process (PID=45751) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:27.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:12:27.508+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:27.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:28.041+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:28.059+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:28.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:12:28.066+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:28.066+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:12:28.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.574 seconds
+[2025-09-08T17:12:58.534+0000] {processor.py:186} INFO - Started process (PID=45806) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:58.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:12:58.537+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:58.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:58.999+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:12:59.007+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:59.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:12:59.015+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:12:59.015+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:12:59.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.493 seconds
+[2025-09-08T17:13:29.529+0000] {processor.py:186} INFO - Started process (PID=45861) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:13:29.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:13:29.532+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:13:29.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:13:30.008+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:13:30.015+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:13:30.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:13:30.023+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:13:30.023+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:13:30.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.510 seconds
+[2025-09-08T17:14:00.572+0000] {processor.py:186} INFO - Started process (PID=45916) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:00.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:14:00.577+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:00.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:01.084+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:01.152+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:01.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:14:01.159+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:01.159+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:14:01.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.600 seconds
+[2025-09-08T17:14:31.751+0000] {processor.py:186} INFO - Started process (PID=45971) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:31.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:14:31.758+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:31.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:32.234+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:14:32.253+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:32.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:14:32.262+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:14:32.262+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:14:32.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.523 seconds
+[2025-09-08T17:15:02.711+0000] {processor.py:186} INFO - Started process (PID=46026) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:02.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:15:02.716+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:02.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:03.121+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:03.129+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:03.129+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:15:03.140+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:03.140+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:15:03.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.445 seconds
+[2025-09-08T17:15:33.223+0000] {processor.py:186} INFO - Started process (PID=46084) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:33.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:15:33.225+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:33.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:33.600+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:15:33.607+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:33.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:15:33.615+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:15:33.614+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:15:33.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.403 seconds
+[2025-09-08T17:16:04.134+0000] {processor.py:186} INFO - Started process (PID=46127) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:04.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:16:04.136+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:04.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:04.516+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:04.584+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:04.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:16:04.591+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:04.591+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:16:04.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.473 seconds
+[2025-09-08T17:16:35.147+0000] {processor.py:186} INFO - Started process (PID=46185) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:35.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:16:35.150+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:35.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:35.567+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:16:35.575+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:35.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:16:35.584+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:16:35.584+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:16:35.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.452 seconds
+[2025-09-08T17:17:05.910+0000] {processor.py:186} INFO - Started process (PID=46237) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:05.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:17:05.913+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:05.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:06.334+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:06.410+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:06.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:17:06.418+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:06.417+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:17:06.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.672 seconds
+[2025-09-08T17:17:36.640+0000] {processor.py:186} INFO - Started process (PID=46295) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:36.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:17:36.643+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:36.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:37.088+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:17:37.114+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:37.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:17:37.129+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:17:37.129+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:17:37.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.507 seconds
+[2025-09-08T17:18:07.243+0000] {processor.py:186} INFO - Started process (PID=46350) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:07.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:18:07.247+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:07.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:07.646+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:07.822+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:07.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:18:07.829+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:07.829+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:18:07.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.602 seconds
+[2025-09-08T17:18:37.967+0000] {processor.py:186} INFO - Started process (PID=46405) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:37.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:18:37.971+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:37.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:38.373+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:18:38.501+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:38.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:18:38.509+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:18:38.509+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:18:38.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.557 seconds
+[2025-09-08T17:19:08.685+0000] {processor.py:186} INFO - Started process (PID=46460) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:08.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:19:08.688+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:08.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:09.197+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:09.259+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:09.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:19:09.265+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:09.265+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:19:09.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.595 seconds
+[2025-09-08T17:19:39.774+0000] {processor.py:186} INFO - Started process (PID=46515) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:39.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:19:39.777+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:39.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:40.326+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:19:40.344+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:40.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:19:40.353+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:19:40.352+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:19:40.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.595 seconds
+[2025-09-08T17:20:10.427+0000] {processor.py:186} INFO - Started process (PID=46570) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:10.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:20:10.429+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:10.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:11.016+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:11.087+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:11.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:20:11.096+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:11.095+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:20:11.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.684 seconds
+[2025-09-08T17:20:41.186+0000] {processor.py:186} INFO - Started process (PID=46625) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:41.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:20:41.188+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:41.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:41.714+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:20:41.734+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:41.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:20:41.742+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:20:41.742+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:20:41.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.576 seconds
+[2025-09-08T17:21:12.047+0000] {processor.py:186} INFO - Started process (PID=46680) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:12.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:21:12.050+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:12.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:12.549+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:12.619+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:12.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:21:12.625+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:12.624+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:21:12.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.590 seconds
+[2025-09-08T17:21:42.884+0000] {processor.py:186} INFO - Started process (PID=46747) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:42.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:21:42.887+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:42.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:43.352+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:21:43.370+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:43.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:21:43.376+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:43.376+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:21:43.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.507 seconds
+[2025-09-08T17:22:13.559+0000] {processor.py:186} INFO - Started process (PID=46814) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:13.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:22:13.562+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:13.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:14.122+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:14.180+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:14.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:22:14.186+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:14.186+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:22:14.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.641 seconds
+[2025-09-08T17:22:44.570+0000] {processor.py:186} INFO - Started process (PID=46881) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:44.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T17:22:44.572+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:44.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:45.021+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T17:22:45.034+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:45.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T17:22:45.040+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:45.040+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T17:22:45.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.484 seconds
+[2025-09-08T18:27:18.184+0000] {processor.py:186} INFO - Started process (PID=46932) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T18:27:18.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T18:27:18.186+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:18.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T18:27:18.659+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T18:27:18.665+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:18.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T18:27:18.674+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:18.674+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T18:27:18.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.508 seconds
+[2025-09-08T19:23:34.330+0000] {processor.py:186} INFO - Started process (PID=47006) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T19:23:34.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T19:23:34.332+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:34.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T19:23:34.782+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T19:23:34.788+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:34.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T19:23:34.796+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:34.796+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T19:23:34.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.477 seconds
+[2025-09-08T20:47:08.361+0000] {processor.py:186} INFO - Started process (PID=47078) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T20:47:08.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T20:47:08.363+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:08.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T20:47:08.805+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T20:47:08.813+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:08.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T20:47:08.820+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:08.820+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T20:47:08.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.481 seconds
+[2025-09-08T22:21:43.348+0000] {processor.py:186} INFO - Started process (PID=47152) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T22:21:43.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T22:21:43.350+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:43.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T22:21:43.815+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T22:21:43.825+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:43.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T22:21:43.831+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:43.831+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T22:21:43.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.495 seconds
+[2025-09-08T23:42:15.507+0000] {processor.py:186} INFO - Started process (PID=47224) to work on /opt/airflow/dags/1_download_data.py
+[2025-09-08T23:42:15.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/1_download_data.py for tasks to queue
+[2025-09-08T23:42:15.509+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:15.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/1_download_data.py
+[2025-09-08T23:42:15.952+0000] {processor.py:925} INFO - DAG(s) 'unified_simulation' retrieved from /opt/airflow/dags/1_download_data.py
+[2025-09-08T23:42:15.960+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:15.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-08T23:42:15.967+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:15.966+0000] {dag.py:4180} INFO - Setting next_dagrun for unified_simulation to None, run_after=None
+[2025-09-08T23:42:15.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/1_download_data.py took 0.473 seconds

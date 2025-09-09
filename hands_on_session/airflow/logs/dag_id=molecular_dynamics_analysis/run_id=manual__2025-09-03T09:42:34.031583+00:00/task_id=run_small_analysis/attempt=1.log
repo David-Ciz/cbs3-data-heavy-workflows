@@ -1,0 +1,275 @@
+[2025-09-03T09:42:34.967+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-03T09:42:35.078+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:42:34.031583+00:00 [queued]>
+[2025-09-03T09:42:35.086+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:42:34.031583+00:00 [queued]>
+[2025-09-03T09:42:35.087+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-09-03T09:42:35.099+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): run_small_analysis> on 2025-09-03 09:42:34.031583+00:00
+[2025-09-03T09:42:35.103+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=466) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-09-03T09:42:35.103+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'molecular_dynamics_analysis', 'run_small_analysis', 'manual__2025-09-03T09:42:34.031583+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/molecular_dynamics_dag.py', '--cfg-path', '/tmp/tmpbr9pu0xz']
+[2025-09-03T09:42:35.104+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask run_small_analysis
+[2025-09-03T09:42:35.104+0000] {standard_task_runner.py:63} INFO - Started process 467 to run task
+[2025-09-03T09:42:35.112+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-03T09:42:35.141+0000] {task_command.py:426} INFO - Running <TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:42:34.031583+00:00 [running]> on host ab9e9de509d0
+[2025-09-03T09:42:35.198+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='molecular_dynamics_analysis' AIRFLOW_CTX_TASK_ID='run_small_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-09-03T09:42:34.031583+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-03T09:42:34.031583+00:00'
+[2025-09-03T09:42:35.199+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-03T09:42:35.212+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-03T09:42:35.214+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/tmp/cpptraj/bin/cpptraj -p /opt/***/data/rerun_10us-traj/strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top -i /opt/***/scripts/nmr_noe_ptraj.in']
+[2025-09-03T09:42:35.219+0000] {subprocess.py:86} INFO - Output:
+[2025-09-03T09:42:35.234+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.234+0000] {subprocess.py:93} INFO - CPPTRAJ: Trajectory Analysis. V6.29.14 (GitHub)
+[2025-09-03T09:42:35.236+0000] {subprocess.py:93} INFO -     ___  ___  ___  ___
+[2025-09-03T09:42:35.236+0000] {subprocess.py:93} INFO -      | \/ | \/ | \/ |
+[2025-09-03T09:42:35.236+0000] {subprocess.py:93} INFO -     _|_/\_|_/\_|_/\_|_
+[2025-09-03T09:42:35.237+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.239+0000] {subprocess.py:93} INFO - | Date/time: 09/03/25 09:42:35
+[2025-09-03T09:42:35.239+0000] {subprocess.py:93} INFO - | Available memory: 4.023 GB
+[2025-09-03T09:42:35.239+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.239+0000] {subprocess.py:93} INFO - 	Reading '/opt/***/data/rerun_10us-traj/strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top' as Amber Topology
+[2025-09-03T09:42:35.239+0000] {subprocess.py:93} INFO - 	Radius Set: modified Bondi radii (mbondi)
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO - INPUT: Reading input from '/opt/***/scripts/nmr_noe_ptraj.in'
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO -   [trajin /opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj]
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO - 	Reading '/opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj' as Amber Trajectory
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO -   [distance d1 :1@H1' :1@H6]
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H1' to :1@H6, center of mass.
+[2025-09-03T09:42:35.240+0000] {subprocess.py:93} INFO -   [distance d2 :1@H1' :2@H8]
+[2025-09-03T09:42:35.242+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H1' to :2@H8, center of mass.
+[2025-09-03T09:42:35.244+0000] {subprocess.py:93} INFO -   [distance d3 :1@H2'1 :1@H6]
+[2025-09-03T09:42:35.247+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H2'1 to :1@H6, center of mass.
+[2025-09-03T09:42:35.248+0000] {subprocess.py:93} INFO -   [distance d4 :1@H2'1 :2@H1']
+[2025-09-03T09:42:35.248+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H2'1 to :2@H1', center of mass.
+[2025-09-03T09:42:35.248+0000] {subprocess.py:93} INFO -   [distance d5 :1@H2'1 :2@H8]
+[2025-09-03T09:42:35.249+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H2'1 to :2@H8, center of mass.
+[2025-09-03T09:42:35.249+0000] {subprocess.py:93} INFO -   [distance d6 :1@H3' :1@H6]
+[2025-09-03T09:42:35.249+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H3' to :1@H6, center of mass.
+[2025-09-03T09:42:35.249+0000] {subprocess.py:93} INFO -   [distance d7 :1@H4' :1@H6]
+[2025-09-03T09:42:35.249+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H4' to :1@H6, center of mass.
+[2025-09-03T09:42:35.253+0000] {subprocess.py:93} INFO -   [distance d8 :1@H4' :2@H8]
+[2025-09-03T09:42:35.253+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H4' to :2@H8, center of mass.
+[2025-09-03T09:42:35.254+0000] {subprocess.py:93} INFO -   [distance d9 :1@H6 :2@H8]
+[2025-09-03T09:42:35.254+0000] {subprocess.py:93} INFO -     DISTANCE: :1@H6 to :2@H8, center of mass.
+[2025-09-03T09:42:35.254+0000] {subprocess.py:93} INFO -   [distance d10 :2@H1' :2@H2]
+[2025-09-03T09:42:35.254+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H1' to :2@H2, center of mass.
+[2025-09-03T09:42:35.254+0000] {subprocess.py:93} INFO -   [distance d11 :2@H1' :2@H8]
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H1' to :2@H8, center of mass.
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -   [distance d12 :2@H1' :3@H8]
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H1' to :3@H8, center of mass.
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -   [distance d13 :2@H2 :2@H2'1]
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2 to :2@H2'1, center of mass.
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -   [distance d14 :2@H2 :3@H1']
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2 to :3@H1', center of mass.
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -   [distance d15 :2@H2'1 :2@H8]
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2'1 to :2@H8, center of mass.
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -   [distance d16 :2@H2'1 :3@H1']
+[2025-09-03T09:42:35.255+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2'1 to :3@H1', center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d17 :2@H2'1 :3@H4']
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2'1 to :3@H4', center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d18 :2@H2'1 :3@H8]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H2'1 to :3@H8, center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d19 :2@H3' :2@H8]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H3' to :2@H8, center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d20 :2@H3' :3@H8]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H3' to :3@H8, center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d21 :2@H4' :2@H8]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :2@H4' to :2@H8, center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d22 :3@H1' :3@H2]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H1' to :3@H2, center of mass.
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -   [distance d23 :3@H1' :3@H8]
+[2025-09-03T09:42:35.256+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H1' to :3@H8, center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d24 :3@H2 :4@H1']
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2 to :4@H1', center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d25 :3@H2'1 :3@H8]
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2'1 to :3@H8, center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d26 :3@H2'1 :4@H1']
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2'1 to :4@H1', center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d27 :3@H2'1 :4@H4']
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2'1 to :4@H4', center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d28 :3@H2'1 :4@H5]
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2'1 to :4@H5, center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d29 :3@H2'1 :4@H6]
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H2'1 to :4@H6, center of mass.
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -   [distance d30 :3@H3' :3@H8]
+[2025-09-03T09:42:35.257+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H3' to :3@H8, center of mass.
+[2025-09-03T09:42:35.258+0000] {subprocess.py:93} INFO -   [distance d31 :3@H3' :4@H2'1]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H3' to :4@H2'1, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d32 :3@H3' :4@H5]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H3' to :4@H5, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d33 :3@H3' :4@H6]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H3' to :4@H6, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d34 :3@H4' :3@H8]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H4' to :3@H8, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d35 :3@H4' :4@H2'1]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H4' to :4@H2'1, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d36 :3@H8 :4@H2'1]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H8 to :4@H2'1, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d37 :3@H8 :4@H5]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H8 to :4@H5, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d38 :3@H8 :4@H6]
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -     DISTANCE: :3@H8 to :4@H6, center of mass.
+[2025-09-03T09:42:35.259+0000] {subprocess.py:93} INFO -   [distance d39 :4@H1' :4@H6]
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO -     DISTANCE: :4@H1' to :4@H6, center of mass.
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO -   [run]
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO - ---------- RUN BEGIN -------------------------------------------------
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO - PARAMETER FILES (1 total):
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO -  0: strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top, 126 atoms, 4 res, box: Orthorhombic, 1 mol
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO - INPUT TRAJECTORIES (1 total):
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO -  0: 'caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj' is an AMBER trajectory, Parm strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top (Orthorhombic box) (reading 100000 of 100000)
+[2025-09-03T09:42:35.260+0000] {subprocess.py:93} INFO -   Coordinate processing will occur on 100000 frames.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - BEGIN TRAJECTORY PROCESSING:
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - .....................................................
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - ACTION SETUP FOR PARM 'strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top' (39 actions):
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   0: [distance d1 :1@H1' :1@H6]
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H1' (1 atoms) to :1@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   1: [distance d2 :1@H1' :2@H8]
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H1' (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   2: [distance d3 :1@H2'1 :1@H6]
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H2'1 (1 atoms) to :1@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   3: [distance d4 :1@H2'1 :2@H1']
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H2'1 (1 atoms) to :2@H1' (1 atoms), imaged.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   4: [distance d5 :1@H2'1 :2@H8]
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H2'1 (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO -   5: [distance d6 :1@H3' :1@H6]
+[2025-09-03T09:42:35.261+0000] {subprocess.py:93} INFO - 	:1@H3' (1 atoms) to :1@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   6: [distance d7 :1@H4' :1@H6]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:1@H4' (1 atoms) to :1@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   7: [distance d8 :1@H4' :2@H8]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:1@H4' (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   8: [distance d9 :1@H6 :2@H8]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:1@H6 (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   9: [distance d10 :2@H1' :2@H2]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H1' (1 atoms) to :2@H2 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   10: [distance d11 :2@H1' :2@H8]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H1' (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   11: [distance d12 :2@H1' :3@H8]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H1' (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   12: [distance d13 :2@H2 :2@H2'1]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H2 (1 atoms) to :2@H2'1 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   13: [distance d14 :2@H2 :3@H1']
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H2 (1 atoms) to :3@H1' (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   14: [distance d15 :2@H2'1 :2@H8]
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H2'1 (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO -   15: [distance d16 :2@H2'1 :3@H1']
+[2025-09-03T09:42:35.262+0000] {subprocess.py:93} INFO - 	:2@H2'1 (1 atoms) to :3@H1' (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   16: [distance d17 :2@H2'1 :3@H4']
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:2@H2'1 (1 atoms) to :3@H4' (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   17: [distance d18 :2@H2'1 :3@H8]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:2@H2'1 (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   18: [distance d19 :2@H3' :2@H8]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:2@H3' (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   19: [distance d20 :2@H3' :3@H8]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:2@H3' (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   20: [distance d21 :2@H4' :2@H8]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:2@H4' (1 atoms) to :2@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   21: [distance d22 :3@H1' :3@H2]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:3@H1' (1 atoms) to :3@H2 (1 atoms), imaged.
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO -   22: [distance d23 :3@H1' :3@H8]
+[2025-09-03T09:42:35.263+0000] {subprocess.py:93} INFO - 	:3@H1' (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO -   23: [distance d24 :3@H2 :4@H1']
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO - 	:3@H2 (1 atoms) to :4@H1' (1 atoms), imaged.
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO -   24: [distance d25 :3@H2'1 :3@H8]
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO - 	:3@H2'1 (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO -   25: [distance d26 :3@H2'1 :4@H1']
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO - 	:3@H2'1 (1 atoms) to :4@H1' (1 atoms), imaged.
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO -   26: [distance d27 :3@H2'1 :4@H4']
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO - 	:3@H2'1 (1 atoms) to :4@H4' (1 atoms), imaged.
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO -   27: [distance d28 :3@H2'1 :4@H5]
+[2025-09-03T09:42:35.264+0000] {subprocess.py:93} INFO - 	:3@H2'1 (1 atoms) to :4@H5 (1 atoms), imaged.
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO -   28: [distance d29 :3@H2'1 :4@H6]
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO - 	:3@H2'1 (1 atoms) to :4@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO -   29: [distance d30 :3@H3' :3@H8]
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO - 	:3@H3' (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO -   30: [distance d31 :3@H3' :4@H2'1]
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO - 	:3@H3' (1 atoms) to :4@H2'1 (1 atoms), imaged.
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO -   31: [distance d32 :3@H3' :4@H5]
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO - 	:3@H3' (1 atoms) to :4@H5 (1 atoms), imaged.
+[2025-09-03T09:42:35.265+0000] {subprocess.py:93} INFO -   32: [distance d33 :3@H3' :4@H6]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H3' (1 atoms) to :4@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   33: [distance d34 :3@H4' :3@H8]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H4' (1 atoms) to :3@H8 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   34: [distance d35 :3@H4' :4@H2'1]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H4' (1 atoms) to :4@H2'1 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   35: [distance d36 :3@H8 :4@H2'1]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H8 (1 atoms) to :4@H2'1 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   36: [distance d37 :3@H8 :4@H5]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H8 (1 atoms) to :4@H5 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   37: [distance d38 :3@H8 :4@H6]
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO - 	:3@H8 (1 atoms) to :4@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.266+0000] {subprocess.py:93} INFO -   38: [distance d39 :4@H1' :4@H6]
+[2025-09-03T09:42:35.267+0000] {subprocess.py:93} INFO - 	:4@H1' (1 atoms) to :4@H6 (1 atoms), imaged.
+[2025-09-03T09:42:35.267+0000] {subprocess.py:93} INFO - ----- caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj (1-100000, 1) -----
+[2025-09-03T09:42:37.251+0000] {subprocess.py:93} INFO -  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+[2025-09-03T09:42:37.251+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - Read 100000 frames and processed 100000 frames.
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - TIME: Avg. throughput= 61959.7113 frames / second.
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - ACTION OUTPUT:
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - TIME: Analyses took 0.0000 seconds.
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - DATASETS (39 total):
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d1 "d1" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d2 "d2" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d3 "d3" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d4 "d4" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d5 "d5" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.252+0000] {subprocess.py:93} INFO - 	d6 "d6" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d7 "d7" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d8 "d8" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d9 "d9" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d10 "d10" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d11 "d11" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d12 "d12" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d13 "d13" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d14 "d14" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d15 "d15" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d16 "d16" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d17 "d17" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d18 "d18" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d19 "d19" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d20 "d20" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.253+0000] {subprocess.py:93} INFO - 	d21 "d21" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d22 "d22" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d23 "d23" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d24 "d24" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d25 "d25" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d26 "d26" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d27 "d27" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d28 "d28" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d29 "d29" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d30 "d30" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d31 "d31" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d32 "d32" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d33 "d33" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d34 "d34" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.254+0000] {subprocess.py:93} INFO - 	d35 "d35" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - 	d36 "d36" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - 	d37 "d37" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - 	d38 "d38" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - 	d39 "d39" (double, distance), size is 100000 (800.000 kB)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO -     Total data set memory usage is at least 31.200 MB
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - RUN TIMING:
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Init               : 0.0002 s (  0.01%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Trajectory Process : 1.6140 s ( 99.99%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Action Post        : 0.0000 s (  0.00%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Analysis           : 0.0000 s (  0.00%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Data File Write    : 0.0000 s (  0.00%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:		Other              : 0.0000 s (  0.00%)
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - TIME:	Run Total 1.6142 s
+[2025-09-03T09:42:37.255+0000] {subprocess.py:93} INFO - ---------- RUN END ---------------------------------------------------
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO -   [writedata md-dist-4-noes.dat d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 d11 d12 d13 d14 d15 d16 d17 d18 d19 d20 d21 d22 d23 d24 d25 d26 d27 d28 d29 d30 d31 d32 d33 d34 d35 d36 d37 d38 d39]
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - 	Writing sets to md-dist-4-noes.dat, format 'Standard Data File'
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO -  d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 d11 d12 d13 d14 d15 d16 d17 d18 d19 d20 d21 d22 d23 d24 d25 d26 d27 d28 d29 d30 d31 d32 d33 d34 d35 d36 d37 d38 d39
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - TIME: Total execution time: 2.0265 seconds.
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - To cite CPPTRAJ use:
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO -   Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO -   Theory Comput., 2013, 9 (7), pp 3084-3095.
+[2025-09-03T09:42:37.256+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:42:37.256+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-03T09:42:37.258+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-03T09:42:37.267+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=molecular_dynamics_analysis, task_id=run_small_analysis, run_id=manual__2025-09-03T09:42:34.031583+00:00, execution_date=20250903T094234, start_date=20250903T094235, end_date=20250903T094237
+[2025-09-03T09:42:37.295+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-09-03T09:42:37.301+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-03T09:42:37.301+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,854 @@
+[2025-09-07T00:07:27.699+0000] {processor.py:186} INFO - Started process (PID=25542) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:07:27.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T00:07:27.702+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:07:27.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:07:27.710+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:07:27.726+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:07:27.726+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T00:07:27.733+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:07:27.733+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T00:07:27.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T00:22:36.563+0000] {processor.py:186} INFO - Started process (PID=25585) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:22:36.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T00:22:36.565+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:22:36.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:22:36.572+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:22:36.588+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:22:36.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T00:22:36.596+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:22:36.596+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T00:22:36.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T00:55:22.377+0000] {processor.py:186} INFO - Started process (PID=25628) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:55:22.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T00:55:22.381+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:55:22.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:55:22.390+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T00:55:22.410+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:55:22.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T00:55:22.420+0000] {logging_mixin.py:190} INFO - [2025-09-07T00:55:22.420+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T00:55:22.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.062 seconds
+[2025-09-07T02:23:13.607+0000] {processor.py:186} INFO - Started process (PID=25673) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:13.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T02:23:13.609+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:13.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:13.614+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:13.627+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:13.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T02:23:13.634+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:13.633+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T02:23:13.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.037 seconds
+[2025-09-07T02:23:44.608+0000] {processor.py:186} INFO - Started process (PID=25714) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:44.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T02:23:44.610+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:44.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:44.620+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T02:23:44.636+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:44.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T02:23:44.644+0000] {logging_mixin.py:190} INFO - [2025-09-07T02:23:44.644+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T02:23:44.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T03:12:35.405+0000] {processor.py:186} INFO - Started process (PID=25757) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T03:12:35.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T03:12:35.409+0000] {logging_mixin.py:190} INFO - [2025-09-07T03:12:35.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T03:12:35.418+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T03:12:35.442+0000] {logging_mixin.py:190} INFO - [2025-09-07T03:12:35.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T03:12:35.453+0000] {logging_mixin.py:190} INFO - [2025-09-07T03:12:35.453+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T03:12:35.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.069 seconds
+[2025-09-07T04:54:40.830+0000] {processor.py:186} INFO - Started process (PID=25800) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T04:54:40.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T04:54:40.833+0000] {logging_mixin.py:190} INFO - [2025-09-07T04:54:40.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T04:54:40.842+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T04:54:40.858+0000] {logging_mixin.py:190} INFO - [2025-09-07T04:54:40.858+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T04:54:40.865+0000] {logging_mixin.py:190} INFO - [2025-09-07T04:54:40.865+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T04:54:40.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T06:14:16.829+0000] {processor.py:186} INFO - Started process (PID=25843) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:16.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T06:14:16.831+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:16.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:16.840+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:16.857+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:16.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T06:14:16.866+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:16.866+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T06:14:16.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.055 seconds
+[2025-09-07T06:14:47.456+0000] {processor.py:186} INFO - Started process (PID=25886) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:47.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T06:14:47.459+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:47.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:47.468+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T06:14:47.483+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:47.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T06:14:47.489+0000] {logging_mixin.py:190} INFO - [2025-09-07T06:14:47.488+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T06:14:47.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T07:16:49.582+0000] {processor.py:186} INFO - Started process (PID=25931) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:16:49.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T07:16:49.584+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:16:49.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:16:49.589+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:16:49.603+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:16:49.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T07:16:49.610+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:16:49.610+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T07:16:49.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.039 seconds
+[2025-09-07T07:17:20.806+0000] {processor.py:186} INFO - Started process (PID=25973) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:17:20.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T07:17:20.809+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:17:20.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:17:20.815+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T07:17:20.835+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:17:20.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T07:17:20.842+0000] {logging_mixin.py:190} INFO - [2025-09-07T07:17:20.842+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T07:17:20.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.052 seconds
+[2025-09-07T08:15:15.930+0000] {processor.py:186} INFO - Started process (PID=26015) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:15.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T08:15:15.933+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:15.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:15.940+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:15.956+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:15.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T08:15:15.962+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:15.962+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T08:15:15.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T08:15:46.560+0000] {processor.py:186} INFO - Started process (PID=26058) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:46.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T08:15:46.563+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:46.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:46.572+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T08:15:46.585+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:46.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T08:15:46.594+0000] {logging_mixin.py:190} INFO - [2025-09-07T08:15:46.594+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T08:15:46.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.049 seconds
+[2025-09-07T09:07:42.672+0000] {processor.py:186} INFO - Started process (PID=26101) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:07:42.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T09:07:42.675+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:07:42.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:07:42.682+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:07:42.699+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:07:42.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T09:07:42.708+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:07:42.708+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T09:07:42.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.056 seconds
+[2025-09-07T09:16:43.853+0000] {processor.py:186} INFO - Started process (PID=26144) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:16:43.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T09:16:43.856+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:16:43.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:16:43.865+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:16:43.880+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:16:43.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T09:16:43.887+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:16:43.887+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T09:16:43.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.049 seconds
+[2025-09-07T09:51:32.669+0000] {processor.py:186} INFO - Started process (PID=26189) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:51:32.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T09:51:32.672+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:51:32.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:51:32.677+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:51:32.690+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:51:32.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T09:51:32.697+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:51:32.697+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T09:51:32.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.038 seconds
+[2025-09-07T09:52:03.883+0000] {processor.py:186} INFO - Started process (PID=26230) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:03.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T09:52:03.885+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:03.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:03.894+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:03.910+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:03.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T09:52:03.918+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:03.918+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T09:52:03.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T09:52:35.022+0000] {processor.py:186} INFO - Started process (PID=26273) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:35.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T09:52:35.025+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:35.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:35.033+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T09:52:35.050+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:35.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T09:52:35.059+0000] {logging_mixin.py:190} INFO - [2025-09-07T09:52:35.059+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T09:52:35.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.053 seconds
+[2025-09-07T10:07:59.941+0000] {processor.py:186} INFO - Started process (PID=26316) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:07:59.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T10:07:59.944+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:07:59.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:07:59.952+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:07:59.969+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:07:59.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T10:07:59.976+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:07:59.976+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T10:07:59.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T10:08:31.176+0000] {processor.py:186} INFO - Started process (PID=26361) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:08:31.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T10:08:31.179+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:08:31.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:08:31.185+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:08:31.205+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:08:31.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T10:08:31.216+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:08:31.216+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T10:08:31.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.058 seconds
+[2025-09-07T10:16:01.916+0000] {processor.py:186} INFO - Started process (PID=26402) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:16:01.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T10:16:01.917+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:16:01.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:16:01.928+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:16:01.947+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:16:01.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T10:16:01.955+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:16:01.954+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T10:16:01.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.056 seconds
+[2025-09-07T10:31:51.773+0000] {processor.py:186} INFO - Started process (PID=26445) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:31:51.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T10:31:51.775+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:31:51.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:31:51.783+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T10:31:51.798+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:31:51.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T10:31:51.806+0000] {logging_mixin.py:190} INFO - [2025-09-07T10:31:51.806+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T10:31:51.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.052 seconds
+[2025-09-07T11:39:04.483+0000] {processor.py:186} INFO - Started process (PID=26488) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T11:39:04.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T11:39:04.485+0000] {logging_mixin.py:190} INFO - [2025-09-07T11:39:04.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T11:39:04.494+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T11:39:04.509+0000] {logging_mixin.py:190} INFO - [2025-09-07T11:39:04.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T11:39:04.517+0000] {logging_mixin.py:190} INFO - [2025-09-07T11:39:04.517+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T11:39:04.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T13:02:08.840+0000] {processor.py:186} INFO - Started process (PID=26531) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:02:08.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:02:08.842+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:02:08.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:02:08.854+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:02:08.866+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:02:08.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:02:08.873+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:02:08.873+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:02:08.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T13:54:07.813+0000] {processor.py:186} INFO - Started process (PID=26574) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:07.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:54:07.815+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:07.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:07.822+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:07.842+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:07.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:54:07.852+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:07.852+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:54:07.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.057 seconds
+[2025-09-07T13:54:38.290+0000] {processor.py:186} INFO - Started process (PID=26617) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:38.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:54:38.292+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:38.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:38.301+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:54:38.316+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:38.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:54:38.323+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:54:38.323+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:54:38.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T13:55:09.677+0000] {processor.py:186} INFO - Started process (PID=26662) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:09.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:55:09.679+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:09.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:09.684+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:09.699+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:09.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:55:09.706+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:09.706+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:55:09.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.041 seconds
+[2025-09-07T13:55:40.833+0000] {processor.py:186} INFO - Started process (PID=26705) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:40.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:55:40.835+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:40.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:40.841+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:55:40.854+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:40.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:55:40.860+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:55:40.860+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:55:40.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.038 seconds
+[2025-09-07T13:56:11.908+0000] {processor.py:186} INFO - Started process (PID=26746) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:11.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:56:11.911+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:11.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:11.919+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:11.933+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:11.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:56:11.940+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:11.940+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:56:11.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T13:56:43.131+0000] {processor.py:186} INFO - Started process (PID=26789) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:43.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:56:43.134+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:43.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:43.141+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:56:43.159+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:43.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:56:43.166+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:56:43.166+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:56:43.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.055 seconds
+[2025-09-07T13:57:14.204+0000] {processor.py:186} INFO - Started process (PID=26832) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:14.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:57:14.207+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:14.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:14.213+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:14.227+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:14.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:57:14.234+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:14.234+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:57:14.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T13:57:45.432+0000] {processor.py:186} INFO - Started process (PID=26875) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:45.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:57:45.435+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:45.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:45.444+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:57:45.469+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:45.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:57:45.478+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:57:45.478+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:57:45.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.063 seconds
+[2025-09-07T13:58:16.579+0000] {processor.py:186} INFO - Started process (PID=26918) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:16.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:58:16.582+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:16.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:16.593+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:16.607+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:16.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:58:16.614+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:16.614+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:58:16.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T13:58:47.694+0000] {processor.py:186} INFO - Started process (PID=26963) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:47.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:58:47.696+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:47.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:47.701+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:58:47.714+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:47.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:58:47.720+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:58:47.720+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:58:47.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T13:59:18.295+0000] {processor.py:186} INFO - Started process (PID=27005) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:18.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:59:18.297+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:18.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:18.306+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:18.322+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:18.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:59:18.331+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:18.331+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:59:18.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.053 seconds
+[2025-09-07T13:59:49.415+0000] {processor.py:186} INFO - Started process (PID=27048) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:49.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T13:59:49.418+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:49.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:49.426+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T13:59:49.444+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:49.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T13:59:49.451+0000] {logging_mixin.py:190} INFO - [2025-09-07T13:59:49.451+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T13:59:49.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.053 seconds
+[2025-09-07T14:00:20.485+0000] {processor.py:186} INFO - Started process (PID=27091) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:20.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:00:20.486+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:20.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:20.495+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:20.510+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:20.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:00:20.520+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:20.520+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:00:20.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.052 seconds
+[2025-09-07T14:00:51.641+0000] {processor.py:186} INFO - Started process (PID=27134) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:51.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:00:51.643+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:51.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:51.732+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:00:51.744+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:51.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:00:51.752+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:00:51.752+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:00:51.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.124 seconds
+[2025-09-07T14:01:22.124+0000] {processor.py:186} INFO - Started process (PID=27177) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:22.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:01:22.127+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:22.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:22.136+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:22.149+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:22.148+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:01:22.156+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:22.155+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:01:22.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:01:53.163+0000] {processor.py:186} INFO - Started process (PID=27222) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:53.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:01:53.166+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:53.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:53.172+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:01:53.189+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:53.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:01:53.196+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:01:53.195+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:01:53.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:02:24.048+0000] {processor.py:186} INFO - Started process (PID=27263) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:24.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:02:24.050+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:24.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:24.060+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:24.076+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:24.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:02:24.082+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:24.082+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:02:24.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T14:02:55.064+0000] {processor.py:186} INFO - Started process (PID=27306) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:55.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:02:55.067+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:55.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:55.075+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:02:55.092+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:55.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:02:55.099+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:02:55.099+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:02:55.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.049 seconds
+[2025-09-07T14:03:26.086+0000] {processor.py:186} INFO - Started process (PID=27349) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:26.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:03:26.089+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:26.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:26.095+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:26.112+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:26.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:03:26.119+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:26.119+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:03:26.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:03:57.048+0000] {processor.py:186} INFO - Started process (PID=27392) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:57.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:03:57.050+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:57.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:57.058+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:03:57.072+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:57.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:03:57.079+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:03:57.079+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:03:57.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:04:28.067+0000] {processor.py:186} INFO - Started process (PID=27435) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:28.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:04:28.069+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:28.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:28.077+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:28.090+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:28.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:04:28.097+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:28.097+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:04:28.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:04:59.114+0000] {processor.py:186} INFO - Started process (PID=27478) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:59.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:04:59.116+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:59.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:59.126+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:04:59.139+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:59.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:04:59.146+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:04:59.146+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:04:59.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:05:30.338+0000] {processor.py:186} INFO - Started process (PID=27521) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:05:30.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:05:30.341+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:05:30.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:05:30.348+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:05:30.368+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:05:30.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:05:30.375+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:05:30.375+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:05:30.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.053 seconds
+[2025-09-07T14:06:01.415+0000] {processor.py:186} INFO - Started process (PID=27564) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:01.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:06:01.417+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:01.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:01.427+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:01.442+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:01.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:06:01.450+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:01.450+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:06:01.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T14:06:31.971+0000] {processor.py:186} INFO - Started process (PID=27607) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:31.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:06:31.973+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:31.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:31.983+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:06:31.997+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:31.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:06:32.005+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:06:32.005+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:06:32.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T14:07:03.069+0000] {processor.py:186} INFO - Started process (PID=27652) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:03.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:07:03.071+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:03.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:03.076+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:03.089+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:03.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:07:03.095+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:03.095+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:07:03.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:07:34.100+0000] {processor.py:186} INFO - Started process (PID=27693) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:34.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:07:34.102+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:34.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:34.112+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:07:34.128+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:34.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:07:34.134+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:07:34.134+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:07:34.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T14:08:04.648+0000] {processor.py:186} INFO - Started process (PID=27736) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:04.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:08:04.649+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:04.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:04.657+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:04.670+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:04.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:08:04.676+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:04.676+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:08:04.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:08:35.814+0000] {processor.py:186} INFO - Started process (PID=27781) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:35.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:08:35.816+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:35.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:35.821+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:08:35.834+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:35.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:08:35.840+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:08:35.840+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:08:35.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:09:06.894+0000] {processor.py:186} INFO - Started process (PID=27822) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:06.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:09:06.897+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:06.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:06.903+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:06.921+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:06.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:09:06.928+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:06.928+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:09:06.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T14:09:37.973+0000] {processor.py:186} INFO - Started process (PID=27867) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:37.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:09:37.976+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:37.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:37.981+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:09:37.993+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:37.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:09:37.999+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:09:37.999+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:09:38.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:10:09.028+0000] {processor.py:186} INFO - Started process (PID=27908) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:09.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:10:09.032+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:09.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:09.042+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:09.055+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:09.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:10:09.061+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:09.061+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:10:09.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T14:10:40.135+0000] {processor.py:186} INFO - Started process (PID=27953) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:40.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:10:40.137+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:40.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:40.142+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:10:40.154+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:40.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:10:40.160+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:10:40.159+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:10:40.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.035 seconds
+[2025-09-07T14:11:11.204+0000] {processor.py:186} INFO - Started process (PID=27994) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:11.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:11:11.206+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:11.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:11.214+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:11.229+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:11.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:11:11.236+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:11.236+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:11:11.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T14:11:42.281+0000] {processor.py:186} INFO - Started process (PID=28037) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:42.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:11:42.284+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:42.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:42.292+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:11:42.306+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:42.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:11:42.313+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:11:42.313+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:11:42.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:12:13.271+0000] {processor.py:186} INFO - Started process (PID=28082) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:13.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:12:13.273+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:13.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:13.278+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:13.291+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:13.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:12:13.297+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:13.297+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:12:13.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.035 seconds
+[2025-09-07T14:12:44.279+0000] {processor.py:186} INFO - Started process (PID=28125) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:44.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:12:44.281+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:44.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:44.286+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:12:44.298+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:44.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:12:44.305+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:12:44.305+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:12:44.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:13:15.233+0000] {processor.py:186} INFO - Started process (PID=28168) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:15.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:13:15.235+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:15.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:15.240+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:15.252+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:15.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:13:15.258+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:15.258+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:13:15.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.035 seconds
+[2025-09-07T14:13:46.189+0000] {processor.py:186} INFO - Started process (PID=28209) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:46.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:13:46.191+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:46.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:46.199+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:13:46.212+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:46.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:13:46.218+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:13:46.218+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:13:46.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.041 seconds
+[2025-09-07T14:14:17.192+0000] {processor.py:186} INFO - Started process (PID=28254) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:17.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:14:17.195+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:17.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:17.201+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:17.217+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:17.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:14:17.223+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:17.223+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:14:17.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:14:48.250+0000] {processor.py:186} INFO - Started process (PID=28295) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:48.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:14:48.253+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:48.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:48.261+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:14:48.277+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:48.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:14:48.284+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:14:48.284+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:14:48.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.052 seconds
+[2025-09-07T14:15:19.366+0000] {processor.py:186} INFO - Started process (PID=28338) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:19.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:15:19.369+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:19.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:19.378+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:19.392+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:19.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:15:19.398+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:19.398+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:15:19.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:15:50.460+0000] {processor.py:186} INFO - Started process (PID=28381) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:50.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:15:50.463+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:50.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:50.472+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:15:50.491+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:50.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:15:50.498+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:15:50.498+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:15:50.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.056 seconds
+[2025-09-07T14:16:20.997+0000] {processor.py:186} INFO - Started process (PID=28424) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:20.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:16:20.998+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:20.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:21.006+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:21.021+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:21.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:16:21.028+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:21.027+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:16:21.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:16:52.099+0000] {processor.py:186} INFO - Started process (PID=28469) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:52.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:16:52.101+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:52.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:52.106+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:16:52.118+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:52.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:16:52.124+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:16:52.124+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:16:52.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:17:22.639+0000] {processor.py:186} INFO - Started process (PID=28510) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:22.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:17:22.640+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:22.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:22.650+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:22.662+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:22.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:17:22.668+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:22.668+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:17:22.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.043 seconds
+[2025-09-07T14:17:53.788+0000] {processor.py:186} INFO - Started process (PID=28553) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:53.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:17:53.790+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:53.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:53.798+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:17:53.815+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:53.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:17:53.822+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:17:53.822+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:17:53.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T14:18:24.385+0000] {processor.py:186} INFO - Started process (PID=28596) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:24.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:18:24.387+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:24.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:24.397+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:24.413+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:24.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:18:24.418+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:24.418+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:18:24.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T14:18:55.007+0000] {processor.py:186} INFO - Started process (PID=28639) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:55.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:18:55.009+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:55.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:55.020+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:18:55.038+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:55.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:18:55.046+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:18:55.046+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:18:55.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.054 seconds
+[2025-09-07T14:19:25.603+0000] {processor.py:186} INFO - Started process (PID=28682) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:25.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:19:25.605+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:25.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:25.611+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:25.626+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:25.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:19:25.639+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:25.637+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:19:25.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T14:19:56.259+0000] {processor.py:186} INFO - Started process (PID=28725) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:56.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:19:56.262+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:56.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:56.268+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:19:56.284+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:56.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:19:56.291+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:19:56.291+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:19:56.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:20:26.441+0000] {processor.py:186} INFO - Started process (PID=28762) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:26.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:20:26.444+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:26.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:26.450+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:26.466+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:26.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:20:26.474+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:26.474+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:20:26.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T14:20:56.778+0000] {processor.py:186} INFO - Started process (PID=28801) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:56.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:20:56.780+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:56.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:56.785+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:20:56.798+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:56.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:20:56.804+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:20:56.804+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:20:56.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.037 seconds
+[2025-09-07T14:21:27.237+0000] {processor.py:186} INFO - Started process (PID=28844) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:27.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:21:27.239+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:27.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:27.248+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:27.263+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:27.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:21:27.269+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:27.269+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:21:27.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:21:57.793+0000] {processor.py:186} INFO - Started process (PID=28887) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:57.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:21:57.795+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:57.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:57.800+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:21:57.813+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:57.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:21:57.819+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:21:57.819+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:21:57.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:22:28.456+0000] {processor.py:186} INFO - Started process (PID=28930) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:28.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:22:28.458+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:28.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:28.462+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:28.475+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:28.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:22:28.481+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:28.481+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:22:28.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:22:59.072+0000] {processor.py:186} INFO - Started process (PID=28973) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:59.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:22:59.074+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:59.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:59.079+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:22:59.091+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:59.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:22:59.098+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:22:59.098+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:22:59.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:23:29.687+0000] {processor.py:186} INFO - Started process (PID=29016) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:23:29.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:23:29.688+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:23:29.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:23:29.694+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:23:29.706+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:23:29.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:23:29.712+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:23:29.712+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:23:29.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:24:00.297+0000] {processor.py:186} INFO - Started process (PID=29059) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:00.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:24:00.299+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:00.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:00.304+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:00.317+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:00.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:24:00.322+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:00.322+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:24:00.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.035 seconds
+[2025-09-07T14:24:30.970+0000] {processor.py:186} INFO - Started process (PID=29102) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:30.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:24:30.972+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:30.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:30.981+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:24:30.998+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:30.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:24:31.006+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:24:31.006+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:24:31.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T14:25:01.603+0000] {processor.py:186} INFO - Started process (PID=29146) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:01.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:25:01.604+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:01.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:01.609+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:01.621+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:01.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:25:01.628+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:01.628+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:25:01.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:25:32.195+0000] {processor.py:186} INFO - Started process (PID=29189) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:32.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:25:32.197+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:32.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:32.202+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:25:32.215+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:32.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:25:32.223+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:25:32.223+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:25:32.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.041 seconds
+[2025-09-07T14:26:02.761+0000] {processor.py:186} INFO - Started process (PID=29232) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:02.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:26:02.763+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:02.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:02.767+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:02.780+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:02.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:26:02.786+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:02.786+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:26:02.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:26:32.894+0000] {processor.py:186} INFO - Started process (PID=29275) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:32.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:26:32.896+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:32.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:32.901+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:26:32.913+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:32.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:26:32.919+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:26:32.919+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:26:32.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:27:03.512+0000] {processor.py:186} INFO - Started process (PID=29318) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:03.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:27:03.513+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:03.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:03.518+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:03.530+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:03.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:27:03.536+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:03.536+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:27:03.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.035 seconds
+[2025-09-07T14:27:33.702+0000] {processor.py:186} INFO - Started process (PID=29361) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:33.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:27:33.704+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:33.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:33.708+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:27:33.721+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:33.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:27:33.727+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:27:33.727+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:27:33.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.037 seconds
+[2025-09-07T14:28:04.314+0000] {processor.py:186} INFO - Started process (PID=29404) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:04.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:28:04.315+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:04.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:04.320+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:04.333+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:04.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:28:04.339+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:04.339+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:28:04.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.037 seconds
+[2025-09-07T14:28:34.974+0000] {processor.py:186} INFO - Started process (PID=29447) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:34.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:28:34.976+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:34.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:34.981+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:28:34.994+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:34.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:28:35.001+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:28:35.000+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:28:35.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.038 seconds
+[2025-09-07T14:29:05.602+0000] {processor.py:186} INFO - Started process (PID=29490) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:05.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:29:05.603+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:05.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:05.608+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:05.620+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:05.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:29:05.627+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:05.627+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:29:05.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:29:36.185+0000] {processor.py:186} INFO - Started process (PID=29533) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:36.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:29:36.186+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:36.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:36.191+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:29:36.204+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:36.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:29:36.210+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:29:36.210+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:29:36.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:30:06.294+0000] {processor.py:186} INFO - Started process (PID=29574) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:30:06.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:30:06.296+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:30:06.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:30:06.303+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:30:06.324+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:30:06.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:30:06.332+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:30:06.332+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:30:06.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.054 seconds
+[2025-09-07T14:42:58.196+0000] {processor.py:186} INFO - Started process (PID=29613) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:42:58.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:42:58.198+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:42:58.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:42:58.203+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:42:58.219+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:42:58.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:42:58.226+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:42:58.226+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:42:58.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.043 seconds
+[2025-09-07T14:43:29.576+0000] {processor.py:186} INFO - Started process (PID=29654) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:43:29.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:43:29.581+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:43:29.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:43:29.589+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:43:29.613+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:43:29.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:43:29.622+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:43:29.622+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:43:29.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.073 seconds
+[2025-09-07T14:44:00.865+0000] {processor.py:186} INFO - Started process (PID=29697) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:00.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:44:00.869+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:00.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:00.879+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:00.894+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:00.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:44:00.902+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:00.902+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:44:01.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.212 seconds
+[2025-09-07T14:44:31.628+0000] {processor.py:186} INFO - Started process (PID=29740) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:31.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:44:31.630+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:31.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:31.730+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:44:31.745+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:31.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:44:31.752+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:44:31.752+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:44:31.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.139 seconds
+[2025-09-07T14:45:02.063+0000] {processor.py:186} INFO - Started process (PID=29783) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:02.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:45:02.065+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:02.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:02.071+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:02.083+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:02.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:45:02.090+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:02.090+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:45:02.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.038 seconds
+[2025-09-07T14:45:33.280+0000] {processor.py:186} INFO - Started process (PID=29828) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:33.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:45:33.282+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:33.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:33.288+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:45:33.306+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:33.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:45:33.312+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:45:33.312+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:45:33.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:46:04.316+0000] {processor.py:186} INFO - Started process (PID=29869) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:04.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:46:04.319+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:04.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:04.327+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:04.346+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:04.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:46:04.354+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:04.354+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:46:04.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.055 seconds
+[2025-09-07T14:46:35.342+0000] {processor.py:186} INFO - Started process (PID=29912) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:35.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:46:35.344+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:35.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:35.352+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:46:35.364+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:35.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:46:35.370+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:46:35.370+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:46:35.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.042 seconds
+[2025-09-07T14:47:06.298+0000] {processor.py:186} INFO - Started process (PID=29955) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:06.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:47:06.300+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:06.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:06.308+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:06.322+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:06.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:47:06.329+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:06.329+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:47:06.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:47:37.330+0000] {processor.py:186} INFO - Started process (PID=29998) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:37.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:47:37.332+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:37.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:37.342+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:47:37.353+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:37.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:47:37.359+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:47:37.359+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:47:37.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.043 seconds
+[2025-09-07T14:48:08.392+0000] {processor.py:186} INFO - Started process (PID=30041) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:08.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:48:08.394+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:08.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:08.402+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:08.417+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:08.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:48:08.423+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:08.423+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:48:08.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:48:39.456+0000] {processor.py:186} INFO - Started process (PID=30084) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:39.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:48:39.458+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:39.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:39.469+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:48:39.485+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:39.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:48:39.492+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:48:39.492+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:48:39.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T14:49:10.594+0000] {processor.py:186} INFO - Started process (PID=30127) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:10.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:49:10.597+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:10.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:10.606+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:10.621+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:10.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:49:10.628+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:10.628+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:49:10.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.047 seconds
+[2025-09-07T14:49:41.665+0000] {processor.py:186} INFO - Started process (PID=30172) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:41.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:49:41.667+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:41.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:41.672+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:49:41.685+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:41.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:49:41.691+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:49:41.691+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:49:41.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.036 seconds
+[2025-09-07T14:50:12.766+0000] {processor.py:186} INFO - Started process (PID=30213) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:12.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:50:12.768+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:12.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:12.779+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:12.792+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:12.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:50:12.799+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:12.799+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:50:12.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T14:50:43.331+0000] {processor.py:186} INFO - Started process (PID=30256) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:43.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:50:43.334+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:43.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:43.342+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:50:43.354+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:43.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:50:43.361+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:50:43.361+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:50:43.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.045 seconds
+[2025-09-07T14:51:14.427+0000] {processor.py:186} INFO - Started process (PID=30299) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:14.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:51:14.429+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:14.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:14.438+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:14.450+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:14.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:51:14.457+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:14.457+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:51:14.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.044 seconds
+[2025-09-07T14:51:45.510+0000] {processor.py:186} INFO - Started process (PID=30342) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:45.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:51:45.512+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:45.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:45.522+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:51:45.534+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:45.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:51:45.541+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:51:45.541+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:51:45.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T14:52:16.617+0000] {processor.py:186} INFO - Started process (PID=30385) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:16.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:52:16.620+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:16.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:16.628+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:16.643+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:16.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:52:16.653+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:16.652+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:52:16.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.049 seconds
+[2025-09-07T14:52:47.767+0000] {processor.py:186} INFO - Started process (PID=30428) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:47.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T14:52:47.769+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:47.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:47.777+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T14:52:47.794+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:47.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T14:52:47.801+0000] {logging_mixin.py:190} INFO - [2025-09-07T14:52:47.801+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T14:52:47.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T15:46:21.417+0000] {processor.py:186} INFO - Started process (PID=30471) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T15:46:21.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T15:46:21.420+0000] {logging_mixin.py:190} INFO - [2025-09-07T15:46:21.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T15:46:21.427+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T15:46:21.445+0000] {logging_mixin.py:190} INFO - [2025-09-07T15:46:21.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T15:46:21.452+0000] {logging_mixin.py:190} INFO - [2025-09-07T15:46:21.452+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T15:46:21.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.051 seconds
+[2025-09-07T16:53:29.811+0000] {processor.py:186} INFO - Started process (PID=30514) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T16:53:29.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T16:53:29.813+0000] {logging_mixin.py:190} INFO - [2025-09-07T16:53:29.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T16:53:29.820+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T16:53:29.838+0000] {logging_mixin.py:190} INFO - [2025-09-07T16:53:29.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T16:53:29.846+0000] {logging_mixin.py:190} INFO - [2025-09-07T16:53:29.846+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T16:53:29.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T18:00:11.509+0000] {processor.py:186} INFO - Started process (PID=30557) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T18:00:11.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T18:00:11.513+0000] {logging_mixin.py:190} INFO - [2025-09-07T18:00:11.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T18:00:11.522+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T18:00:11.542+0000] {logging_mixin.py:190} INFO - [2025-09-07T18:00:11.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T18:00:11.549+0000] {logging_mixin.py:190} INFO - [2025-09-07T18:00:11.549+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T18:00:11.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.058 seconds
+[2025-09-07T19:39:27.856+0000] {processor.py:186} INFO - Started process (PID=30600) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T19:39:27.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T19:39:27.858+0000] {logging_mixin.py:190} INFO - [2025-09-07T19:39:27.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T19:39:27.867+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T19:39:27.883+0000] {logging_mixin.py:190} INFO - [2025-09-07T19:39:27.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T19:39:27.890+0000] {logging_mixin.py:190} INFO - [2025-09-07T19:39:27.890+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T19:39:27.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.050 seconds
+[2025-09-07T21:22:47.715+0000] {processor.py:186} INFO - Started process (PID=30643) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T21:22:47.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T21:22:47.718+0000] {logging_mixin.py:190} INFO - [2025-09-07T21:22:47.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T21:22:47.725+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T21:22:47.743+0000] {logging_mixin.py:190} INFO - [2025-09-07T21:22:47.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T21:22:47.750+0000] {logging_mixin.py:190} INFO - [2025-09-07T21:22:47.750+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T21:22:47.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.048 seconds
+[2025-09-07T22:47:18.059+0000] {processor.py:186} INFO - Started process (PID=30686) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T22:47:18.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T22:47:18.061+0000] {logging_mixin.py:190} INFO - [2025-09-07T22:47:18.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T22:47:18.068+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T22:47:18.082+0000] {logging_mixin.py:190} INFO - [2025-09-07T22:47:18.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T22:47:18.089+0000] {logging_mixin.py:190} INFO - [2025-09-07T22:47:18.089+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T22:47:18.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.046 seconds
+[2025-09-07T23:58:28.582+0000] {processor.py:186} INFO - Started process (PID=30729) to work on /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T23:58:28.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/molecular_dynamics_dag.py for tasks to queue
+[2025-09-07T23:58:28.585+0000] {logging_mixin.py:190} INFO - [2025-09-07T23:58:28.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T23:58:28.595+0000] {processor.py:925} INFO - DAG(s) 'molecular_dynamics_analysis' retrieved from /opt/airflow/dags/molecular_dynamics_dag.py
+[2025-09-07T23:58:28.613+0000] {logging_mixin.py:190} INFO - [2025-09-07T23:58:28.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-07T23:58:28.621+0000] {logging_mixin.py:190} INFO - [2025-09-07T23:58:28.621+0000] {dag.py:4180} INFO - Setting next_dagrun for molecular_dynamics_analysis to None, run_after=None
+[2025-09-07T23:58:28.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/molecular_dynamics_dag.py took 0.057 seconds

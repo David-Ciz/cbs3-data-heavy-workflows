@@ -1,0 +1,2 @@
+--index-url https://opencode.it4i.eu/api/v4/projects/107/packages/pypi/simple
+py4lexis==3.2.1

@@ -1,0 +1,61 @@
+[2025-09-03T09:37:48.788+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-03T09:37:48.805+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:37:48.399005+00:00 [queued]>
+[2025-09-03T09:37:48.808+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:37:48.399005+00:00 [queued]>
+[2025-09-03T09:37:48.808+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-09-03T09:37:48.812+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): run_small_analysis> on 2025-09-03 09:37:48.399005+00:00
+[2025-09-03T09:37:48.815+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=417) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-09-03T09:37:48.816+0000] {standard_task_runner.py:63} INFO - Started process 418 to run task
+[2025-09-03T09:37:48.816+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'molecular_dynamics_analysis', 'run_small_analysis', 'manual__2025-09-03T09:37:48.399005+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/molecular_dynamics_dag.py', '--cfg-path', '/tmp/tmpkrkf_b5l']
+[2025-09-03T09:37:48.817+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask run_small_analysis
+[2025-09-03T09:37:48.822+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-03T09:37:48.834+0000] {task_command.py:426} INFO - Running <TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:37:48.399005+00:00 [running]> on host ab9e9de509d0
+[2025-09-03T09:37:48.868+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='molecular_dynamics_analysis' AIRFLOW_CTX_TASK_ID='run_small_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-09-03T09:37:48.399005+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-03T09:37:48.399005+00:00'
+[2025-09-03T09:37:48.869+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-03T09:37:48.877+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-03T09:37:48.878+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/***/scripts/small_analysis.sh /opt/***/data/rerun_10us-traj/strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top /opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj dummy1 dummy2']
+[2025-09-03T09:37:48.881+0000] {subprocess.py:86} INFO - Output:
+[2025-09-03T09:37:48.883+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:37:48.890+0000] {subprocess.py:93} INFO - Error: Unrecognized input on command line: 2: nmr_noe_ptraj.in
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO - Usage: cpptraj [-p <Top0>] [-i <Input0>] [-y <trajin>] [-x <trajout>]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [-ya <args>] [-xa <args>] [<file>]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [-c <reference>] [-d <datain>] [-w <dataout>] [-o <output>]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [-h | --help] [-V | --version] [--defines] [-debug <#>]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [--interactive] [--log <logfile>] [-tl]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [-ms <mask>] [-mr <mask>] [--mask <mask>] [--resmask <mask>]
+[2025-09-03T09:37:48.891+0000] {subprocess.py:93} INFO -                [--rng {marsaglia|stdlib|mt|pcg32|xo128}] [--charge <mask>]
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-p <Top0>        : * Load <Top0> as a topology file.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-i <Input0>      : * Read input from file <Input0>.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-y <trajin>      : * Read from trajectory file <trajin>; same as input 'trajin <trajin>'.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-x <trajout>     : * Write trajectory file <trajout>; same as input 'trajout <trajout>'.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-ya <args>       : * Input trajectory file arguments.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-xa <args>       : * Output trajectory file arguments.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	<file>           : * A topology, input trajectory, or file containing cpptraj input.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-c <reference>   : * Read <reference> as reference coordinates; same as input 'reference <reference>'.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-d <datain>      : * Read data in from file <datain> ('readdata <datain>').
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-w <dataout>     : Write data from <datain> as file <dataout> ('writedata <dataout>).
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-o <output>      : Write CPPTRAJ STDOUT output to file <output>.
+[2025-09-03T09:37:48.892+0000] {subprocess.py:93} INFO - 	-h | --help      : Print command line help and exit.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	-V | --version   : Print version and exit.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--defines        : Print compiler defines and exit.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	-debug <#>       : Set global debug level to <#>; same as input 'debug <#>'.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--interactive    : Force interactive mode.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--log <logfile>  : Record commands to <logfile> (interactive mode only). Default is 'cpptraj.log'.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	-tl              : Print length of all input trajectories specified on the command line to STDOUT.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	-ms <mask>       : Print selected atom numbers to STDOUT.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	-mr <mask>       : Print selected residue numbers to STDOUT.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--mask <mask>    : Print detailed atom selection to STDOUT.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--resmask <mask> : Print detailed residue selection to STDOUT.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--rng <type>     : Change default random number generator.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO - 	--charge <mask>  : Print total charge in e- of atoms selected by <mask>.
+[2025-09-03T09:37:48.893+0000] {subprocess.py:93} INFO -       * Denotes flag may be specified multiple times.
+[2025-09-03T09:37:48.894+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:37:48.894+0000] {subprocess.py:93} INFO - Error: Error(s) occurred during execution.
+[2025-09-03T09:37:48.894+0000] {subprocess.py:93} INFO - TIME: Total execution time: 0.0009 seconds.
+[2025-09-03T09:37:48.894+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:37:48.894+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-03T09:37:48.894+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-03T09:37:48.905+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=molecular_dynamics_analysis, task_id=run_small_analysis, run_id=manual__2025-09-03T09:37:48.399005+00:00, execution_date=20250903T093748, start_date=20250903T093748, end_date=20250903T093748
+[2025-09-03T09:37:48.921+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-09-03T09:37:48.929+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-03T09:37:48.930+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

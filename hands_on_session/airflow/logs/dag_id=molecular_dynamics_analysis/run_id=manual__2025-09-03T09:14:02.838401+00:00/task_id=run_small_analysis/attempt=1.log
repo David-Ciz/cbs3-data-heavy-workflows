@@ -1,0 +1,44 @@
+[2025-09-03T09:14:03.781+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-03T09:14:03.791+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:14:02.838401+00:00 [queued]>
+[2025-09-03T09:14:03.794+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:14:02.838401+00:00 [queued]>
+[2025-09-03T09:14:03.794+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-09-03T09:14:03.797+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): run_small_analysis> on 2025-09-03 09:14:02.838401+00:00
+[2025-09-03T09:14:03.800+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=178) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-09-03T09:14:03.800+0000] {standard_task_runner.py:63} INFO - Started process 179 to run task
+[2025-09-03T09:14:03.800+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'molecular_dynamics_analysis', 'run_small_analysis', 'manual__2025-09-03T09:14:02.838401+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/molecular_dynamics_dag.py', '--cfg-path', '/tmp/tmp1efh80q_']
+[2025-09-03T09:14:03.801+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask run_small_analysis
+[2025-09-03T09:14:03.806+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-03T09:14:03.817+0000] {task_command.py:426} INFO - Running <TaskInstance: molecular_dynamics_analysis.run_small_analysis manual__2025-09-03T09:14:02.838401+00:00 [running]> on host ab9e9de509d0
+[2025-09-03T09:14:03.845+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='molecular_dynamics_analysis' AIRFLOW_CTX_TASK_ID='run_small_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-09-03T09:14:02.838401+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-03T09:14:02.838401+00:00'
+[2025-09-03T09:14:03.845+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-03T09:14:03.860+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-03T09:14:03.860+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/***/scripts/small_analysis.sh /opt/***/data/rerun_10us-traj/strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top /opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj dummy1 dummy2']
+[2025-09-03T09:14:03.863+0000] {subprocess.py:86} INFO - Output:
+[2025-09-03T09:14:03.864+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO - CPPTRAJ: Trajectory Analysis. V6.29.14 (GitHub)
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO -     ___  ___  ___  ___
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO -      | \/ | \/ | \/ |
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO -     _|_/\_|_/\_|_/\_|_
+[2025-09-03T09:14:03.920+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - | Date/time: 09/03/25 09:14:03
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - | Available memory: 4.059 GB
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - 	Reading '/opt/***/data/rerun_10us-traj/strip-wat-ions.caau-ol3-case-opc_NBfix-both-0BPhs_HMR_1.top' as Amber Topology
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - 	Radius Set: modified Bondi radii (mbondi)
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - INPUT: Reading input from 'nmr_noe_ptraj.in'
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO -   [trajin /opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj]
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - 	Reading '/opt/***/data/rerun_10us-traj/caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj' as Amber Trajectory
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - TIME: Total execution time: 0.0121 seconds.
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - To cite CPPTRAJ use:
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO - Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO -   Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+[2025-09-03T09:14:03.921+0000] {subprocess.py:93} INFO -   Theory Comput., 2013, 9 (7), pp 3084-3095.
+[2025-09-03T09:14:03.922+0000] {subprocess.py:93} INFO - 
+[2025-09-03T09:14:03.922+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-03T09:14:03.923+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-03T09:14:03.931+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=molecular_dynamics_analysis, task_id=run_small_analysis, run_id=manual__2025-09-03T09:14:02.838401+00:00, execution_date=20250903T091402, start_date=20250903T091403, end_date=20250903T091403
+[2025-09-03T09:14:03.940+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-09-03T09:14:03.946+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-03T09:14:03.946+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

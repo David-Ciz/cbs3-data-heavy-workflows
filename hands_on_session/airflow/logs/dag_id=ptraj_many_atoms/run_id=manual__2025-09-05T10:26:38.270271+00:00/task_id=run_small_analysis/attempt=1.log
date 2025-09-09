@@ -1,0 +1,106 @@
+[2025-09-05T10:26:38.546+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-05T10:26:38.554+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ptraj_many_atoms.run_small_analysis manual__2025-09-05T10:26:38.270271+00:00 [queued]>
+[2025-09-05T10:26:38.558+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ptraj_many_atoms.run_small_analysis manual__2025-09-05T10:26:38.270271+00:00 [queued]>
+[2025-09-05T10:26:38.558+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-09-05T10:26:38.564+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): run_small_analysis> on 2025-09-05 10:26:38.270271+00:00
+[2025-09-05T10:26:38.566+0000] {standard_task_runner.py:72} INFO - Started process 2631 to run task
+[2025-09-05T10:26:38.569+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ptraj_many_atoms', 'run_small_analysis', 'manual__2025-09-05T10:26:38.270271+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/molecular_dynamics_dag2.py', '--cfg-path', '/tmp/tmpsgo3n46o']
+[2025-09-05T10:26:38.570+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask run_small_analysis
+[2025-09-05T10:26:38.579+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.11/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-05T10:26:38.593+0000] {task_command.py:467} INFO - Running <TaskInstance: ptraj_many_atoms.run_small_analysis manual__2025-09-05T10:26:38.270271+00:00 [running]> on host 54bcbc28a19e
+[2025-09-05T10:26:38.631+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ptraj_many_atoms' AIRFLOW_CTX_TASK_ID='run_small_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-09-05T10:26:38.270271+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-05T10:26:38.270271+00:00'
+[2025-09-05T10:26:38.631+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-05T10:26:38.639+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-09-05T10:26:38.640+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '/tmp/cpptraj/bin/cpptraj -p /opt/***/data/rerun_10us-traj/many_atoms/strip-wat-ions.caau_scaled8.top -i /opt/***/scripts/many_atoms/nmr_unoe_ptraj.in']
+[2025-09-05T10:26:38.644+0000] {subprocess.py:99} INFO - Output:
+[2025-09-05T10:26:38.699+0000] {subprocess.py:106} INFO - Error: '/opt/***/data/rerun_10us-traj/many_atoms/caau_scaled8_10000f.traj': No such file or directory
+[2025-09-05T10:26:38.699+0000] {subprocess.py:106} INFO - Error: Could not set up input trajectory '/opt/***/data/rerun_10us-traj/many_atoms/caau_scaled8_10000f.traj'.
+[2025-09-05T10:26:38.702+0000] {subprocess.py:106} INFO - 	1 errors encountered reading input.
+[2025-09-05T10:26:38.702+0000] {subprocess.py:106} INFO - Error: Error(s) occurred during execution.
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO - 
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO - CPPTRAJ: Trajectory Analysis. V6.29.14 (GitHub)
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO -     ___  ___  ___  ___
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO -      | \/ | \/ | \/ |
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO -     _|_/\_|_/\_|_/\_|_
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO - 
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO - | Date/time: 09/05/25 10:26:38
+[2025-09-05T10:26:38.703+0000] {subprocess.py:106} INFO - | Available memory: 3.249 GB
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - 
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - 	Reading '/opt/***/data/rerun_10us-traj/many_atoms/strip-wat-ions.caau_scaled8.top' as Amber Topology
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - 	Radius Set: modified Bondi radii (mbondi)
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - INPUT: Reading input from '/opt/***/scripts/many_atoms/nmr_unoe_ptraj.in'
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO -   [trajin /opt/***/data/rerun_10us-traj/many_atoms/caau_scaled8_10000f.traj]
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - TIME: Total execution time: 0.0169 seconds.
+[2025-09-05T10:26:38.704+0000] {subprocess.py:106} INFO - 
+[2025-09-05T10:26:38.705+0000] {subprocess.py:110} INFO - Command exited with return code 1
+[2025-09-05T10:26:38.712+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-09-05T10:26:38.714+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=ptraj_many_atoms, task_id=run_small_analysis, run_id=manual__2025-09-05T10:26:38.270271+00:00, execution_date=20250905T102638, start_date=20250905T102638, end_date=20250905T102638
+[2025-09-05T10:26:38.721+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-05T10:26:38.722+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 15 for task run_small_analysis (Bash command failed. The command returned a non-zero exit code 1.; 2631)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-09-05T10:26:38.749+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-09-05T10:26:38.761+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-05T10:26:38.762+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

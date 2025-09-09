@@ -1,0 +1,30 @@
+trajin ./caau_gHBfix21-tHBfix20_NBfix-both-0BPhs_rep1-10us_strip.traj
+dihedral dih1 :1@H1' :1@C1' :1@C2' :1@H2'1 out jcop_1-H1H2.dat
+dihedral dih2 :1@H2'1 :1@C2' :1@C3' :1@H3' out jcop_1-H2H3.dat
+dihedral dih3 :1@H3' :1@C3' :1@C4' :1@H4' out jcop_1-H3H4.dat
+dihedral dih4 :1@H5'1 :1@C5' :1@C4' :1@H4' out jcop_1-1H5H4.dat
+dihedral dih5 :1@H5'2 :1@C5' :1@C4' :1@H4' out jcop_1-2H5H4.dat
+dihedral dih6 :1@H3' :1@C3' :1@O3' :2@P out jcop_1-H3P.dat
+dihedral dih7 :2@H1' :2@C1' :2@C2' :2@H2'1 out jcop_2-H1H2.dat
+dihedral dih8 :2@H2'1 :2@C2' :2@C3' :2@H3' out jcop_2-H2H3.dat
+dihedral dih9 :2@H3' :2@C3' :2@C4' :2@H4' out jcop_2-H3H4.dat
+dihedral dih10 :2@H5'1 :2@C5' :2@C4' :2@H4' out jcop_2-1H5H4.dat
+dihedral dih11 :2@H5'2 :2@C5' :2@C4' :2@H4' out jcop_2-2H5H4.dat
+dihedral dih12 :2@H5'1 :2@C5' :2@O5' :2@P out jcop_2-1H5P.dat
+dihedral dih13 :2@H5'2 :2@C5' :2@O5' :2@P out jcop_2-2H5P.dat
+dihedral dih14 :2@H3' :2@C3' :2@O3' :3@P out jcop_2-H3P.dat
+dihedral dih15 :3@H1' :3@C1' :3@C2' :3@H2'1 out jcop_3-H1H2.dat
+dihedral dih16 :3@H2'1 :3@C2' :3@C3' :3@H3' out jcop_3-H2H3.dat
+dihedral dih17 :3@H3' :3@C3' :3@C4' :3@H4' out jcop_3-H3H4.dat
+dihedral dih18 :3@H5'1 :3@C5' :3@C4' :3@H4' out jcop_3-1H5H4.dat
+dihedral dih19 :3@H5'2 :3@C5' :3@C4' :3@H4' out jcop_3-2H5H4.dat
+dihedral dih20 :3@H5'1 :3@C5' :3@O5' :3@P out jcop_3-1H5P.dat
+dihedral dih21 :3@H5'2 :3@C5' :3@O5' :3@P out jcop_3-2H5P.dat
+dihedral dih22 :3@H3' :3@C3' :3@O3' :4@P out jcop_3-H3P.dat
+dihedral dih23 :4@H1' :4@C1' :4@C2' :4@H2'1 out jcop_4-H1H2.dat
+dihedral dih24 :4@H2'1 :4@C2' :4@C3' :4@H3' out jcop_4-H2H3.dat
+dihedral dih26 :4@H5'1 :4@C5' :4@C4' :4@H4' out jcop_4-1H5H4.dat
+dihedral dih27 :4@H5'2 :4@C5' :4@C4' :4@H4' out jcop_4-2H5H4.dat
+dihedral dih28 :4@H5'1 :4@C5' :4@O5' :4@P out jcop_4-1H5P.dat
+dihedral dih29 :4@H5'2 :4@C5' :4@O5' :4@P out jcop_4-2H5P.dat
+go

@@ -1,0 +1,176 @@
+[2025-09-08T17:21:21.342+0000] {processor.py:186} INFO - Started process (PID=46707) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:21.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T17:21:21.346+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:21.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:21.897+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:21.893+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T17:21:21.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:21.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.573 seconds
+[2025-09-08T17:21:52.024+0000] {processor.py:186} INFO - Started process (PID=46774) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:52.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T17:21:52.029+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:52.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:52.518+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:21:52.517+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T17:21:52.519+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:21:52.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.510 seconds
+[2025-09-08T17:22:22.963+0000] {processor.py:186} INFO - Started process (PID=46841) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:22:22.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T17:22:22.969+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:22.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:22:23.545+0000] {logging_mixin.py:190} INFO - [2025-09-08T17:22:23.544+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T17:22:23.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T17:22:23.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.614 seconds
+[2025-09-08T18:27:17.624+0000] {processor.py:186} INFO - Started process (PID=46915) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T18:27:17.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T18:27:17.627+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:17.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T18:27:18.095+0000] {logging_mixin.py:190} INFO - [2025-09-08T18:27:18.086+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T18:27:18.095+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T18:27:18.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.484 seconds
+[2025-09-08T19:23:33.755+0000] {processor.py:186} INFO - Started process (PID=46988) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T19:23:33.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T19:23:33.757+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:33.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T19:23:34.216+0000] {logging_mixin.py:190} INFO - [2025-09-08T19:23:34.209+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T19:23:34.216+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T19:23:34.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.477 seconds
+[2025-09-08T20:47:07.793+0000] {processor.py:186} INFO - Started process (PID=47061) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T20:47:07.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T20:47:07.795+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:07.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T20:47:08.276+0000] {logging_mixin.py:190} INFO - [2025-09-08T20:47:08.272+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T20:47:08.277+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T20:47:08.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.507 seconds
+[2025-09-08T22:21:42.754+0000] {processor.py:186} INFO - Started process (PID=47134) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T22:21:42.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T22:21:42.756+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:42.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T22:21:43.213+0000] {logging_mixin.py:190} INFO - [2025-09-08T22:21:43.210+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T22:21:43.213+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T22:21:43.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.477 seconds
+[2025-09-08T23:42:14.894+0000] {processor.py:186} INFO - Started process (PID=47207) to work on /opt/airflow/dags/4_upload_results.py
+[2025-09-08T23:42:14.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4_upload_results.py for tasks to queue
+[2025-09-08T23:42:14.897+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:14.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T23:42:15.393+0000] {logging_mixin.py:190} INFO - [2025-09-08T23:42:15.390+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/4_upload_results.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_upload_results.py", line 160, in <module>
+    fetch_data >> resolve >> run_cpptraj >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-08T23:42:15.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/4_upload_results.py
+[2025-09-08T23:42:15.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4_upload_results.py took 0.518 seconds

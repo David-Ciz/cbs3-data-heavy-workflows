@@ -2,11 +2,14 @@ x-airflow-common: &airflow-common
   platform: linux/amd64
   build:
     context: ./hands_on_session/airflow
-  environment:
-    &airflow-common-env
+  environment: &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    # Make /opt/airflow importable so "scripts" can be imported from DAGs
+    PYTHONPATH: /opt/airflow
+    # Airflow connection for your simulation Postgres (Conn Id: simulation_db)
+    AIRFLOW_CONN_SIMULATION_DB: postgresql://user:password@simulation_db:5432/simulation
   volumes:
     - ./hands_on_session/airflow/dags:/opt/airflow/dags
     - ./hands_on_session/airflow/logs:/opt/airflow/logs
@@ -31,6 +34,7 @@ services:
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=simulation
     ports:
+      # external 5433 -> container 5432 (inside the network you still use host=simulation_db, port=5432)
       - "5433:5432"
 
   airflow-webserver:
