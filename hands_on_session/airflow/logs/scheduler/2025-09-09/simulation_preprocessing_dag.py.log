@@ -1706,3 +1706,493 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'ida4sims.db'
 [2025-09-09T07:43:32.266+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
 [2025-09-09T07:43:32.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.488 seconds
+[2025-09-09T07:44:02.475+0000] {processor.py:186} INFO - Started process (PID=56240) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:02.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:44:02.477+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:02.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:02.921+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:02.920+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:44:02.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:02.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.458 seconds
+[2025-09-09T07:44:33.149+0000] {processor.py:186} INFO - Started process (PID=56313) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:33.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:44:33.151+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:33.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:33.584+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:33.583+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:44:33.585+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:44:33.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.446 seconds
+[2025-09-09T07:45:03.879+0000] {processor.py:186} INFO - Started process (PID=56386) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:03.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:45:03.880+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:03.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:04.310+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:04.309+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:45:04.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:04.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.443 seconds
+[2025-09-09T07:45:34.438+0000] {processor.py:186} INFO - Started process (PID=56459) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:34.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:45:34.443+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:34.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:34.959+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:34.958+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:45:34.959+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:45:34.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.538 seconds
+[2025-09-09T07:46:05.649+0000] {processor.py:186} INFO - Started process (PID=56532) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:05.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:46:05.651+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:05.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:06.077+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:06.076+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:46:06.077+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:06.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.438 seconds
+[2025-09-09T07:46:36.422+0000] {processor.py:186} INFO - Started process (PID=56605) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:36.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:46:36.424+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:36.424+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:36.915+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:36.914+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:46:36.916+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:46:36.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.507 seconds
+[2025-09-09T07:47:07.114+0000] {processor.py:186} INFO - Started process (PID=56678) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:07.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:47:07.118+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:07.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:07.558+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:07.557+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:47:07.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:07.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.455 seconds
+[2025-09-09T07:47:37.827+0000] {processor.py:186} INFO - Started process (PID=56751) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:37.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:47:37.829+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:37.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:38.280+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:38.279+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:47:38.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:47:38.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.465 seconds
+[2025-09-09T07:48:08.519+0000] {processor.py:186} INFO - Started process (PID=56824) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:08.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:48:08.521+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:08.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:08.948+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:08.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:48:08.949+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:08.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.440 seconds
+[2025-09-09T07:48:39.283+0000] {processor.py:186} INFO - Started process (PID=56897) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:39.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:48:39.286+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:39.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:39.638+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:39.637+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:48:39.639+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:48:39.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.368 seconds
+[2025-09-09T07:49:09.879+0000] {processor.py:186} INFO - Started process (PID=56970) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:09.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:49:09.882+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:09.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:10.241+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:10.239+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:49:10.243+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:10.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.378 seconds
+[2025-09-09T07:49:40.452+0000] {processor.py:186} INFO - Started process (PID=57043) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:40.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:49:40.457+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:40.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:40.797+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:40.795+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:49:40.798+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:49:40.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.360 seconds
+[2025-09-09T07:50:11.210+0000] {processor.py:186} INFO - Started process (PID=57116) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:11.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:50:11.213+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:11.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:11.574+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:11.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:50:11.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:11.588+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.382 seconds
+[2025-09-09T07:50:41.861+0000] {processor.py:186} INFO - Started process (PID=57189) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:41.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:50:41.866+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:41.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:42.226+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:42.224+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:50:42.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:50:42.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.379 seconds
+[2025-09-09T07:51:12.393+0000] {processor.py:186} INFO - Started process (PID=57262) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:12.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:51:12.395+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:12.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:12.773+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:12.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:51:12.773+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:12.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.396 seconds
+[2025-09-09T07:51:43.027+0000] {processor.py:186} INFO - Started process (PID=57335) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:43.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:51:43.030+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:43.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:43.382+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:43.379+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:51:43.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:51:43.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.370 seconds
+[2025-09-09T07:52:13.936+0000] {processor.py:186} INFO - Started process (PID=57409) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:13.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:52:13.938+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:13.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:14.295+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:14.294+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:52:14.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:14.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.372 seconds
+[2025-09-09T07:52:44.611+0000] {processor.py:186} INFO - Started process (PID=57481) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:44.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:52:44.614+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:44.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:44.977+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:44.976+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:52:44.981+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:52:44.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.383 seconds
+[2025-09-09T07:53:15.429+0000] {processor.py:186} INFO - Started process (PID=57554) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:15.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:53:15.431+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:15.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:15.925+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:15.923+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:53:15.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:15.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.509 seconds
+[2025-09-09T07:53:46.049+0000] {processor.py:186} INFO - Started process (PID=57627) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:46.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:53:46.051+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:46.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:46.504+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:46.502+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:53:46.505+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:53:46.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.468 seconds
+[2025-09-09T07:54:16.635+0000] {processor.py:186} INFO - Started process (PID=57706) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:16.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:54:16.637+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:16.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:17.089+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:17.087+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:54:17.089+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:17.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.466 seconds
+[2025-09-09T07:54:47.399+0000] {processor.py:186} INFO - Started process (PID=57779) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:47.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:54:47.402+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:47.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:47.849+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:47.848+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:54:47.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:54:47.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.459 seconds
+[2025-09-09T07:55:18.764+0000] {processor.py:186} INFO - Started process (PID=57858) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:18.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:55:18.766+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:18.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:19.215+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:19.213+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:55:19.215+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:19.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.461 seconds
+[2025-09-09T07:55:49.441+0000] {processor.py:186} INFO - Started process (PID=57937) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:49.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:55:49.443+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:49.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:49.917+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:49.916+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:55:49.918+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:55:49.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.487 seconds
+[2025-09-09T07:56:20.470+0000] {processor.py:186} INFO - Started process (PID=58017) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:20.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:56:20.474+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:20.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:20.939+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:20.938+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:56:20.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:20.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.483 seconds
+[2025-09-09T07:56:51.240+0000] {processor.py:186} INFO - Started process (PID=58095) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:51.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:56:51.242+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:51.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:51.697+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:51.696+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:56:51.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:56:51.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.472 seconds
+[2025-09-09T07:57:22.016+0000] {processor.py:186} INFO - Started process (PID=58174) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:22.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:57:22.018+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:22.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:22.463+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:22.462+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:57:22.464+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:22.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.459 seconds
+[2025-09-09T07:57:52.944+0000] {processor.py:186} INFO - Started process (PID=58253) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:52.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:57:52.946+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:52.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:53.298+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:53.297+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:57:53.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:57:53.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.366 seconds
+[2025-09-09T07:58:23.649+0000] {processor.py:186} INFO - Started process (PID=58332) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:23.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:58:23.653+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:23.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:23.999+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:23.998+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:58:24.001+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:24.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.368 seconds
+[2025-09-09T07:58:54.423+0000] {processor.py:186} INFO - Started process (PID=58411) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:54.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:58:54.426+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:54.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:54.774+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:54.773+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:58:54.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:58:54.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.364 seconds
+[2025-09-09T07:59:25.038+0000] {processor.py:186} INFO - Started process (PID=58490) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:25.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:59:25.040+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:25.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:25.401+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:25.400+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:59:25.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:25.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.380 seconds
+[2025-09-09T07:59:55.775+0000] {processor.py:186} INFO - Started process (PID=58569) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:55.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T07:59:55.778+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:55.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:56.119+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:56.116+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T07:59:56.120+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T07:59:56.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.362 seconds
+[2025-09-09T08:00:26.284+0000] {processor.py:186} INFO - Started process (PID=58648) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:26.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T08:00:26.286+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:26.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:26.645+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:26.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T08:00:26.645+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:26.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.375 seconds
+[2025-09-09T08:00:56.966+0000] {processor.py:186} INFO - Started process (PID=58727) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:56.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T08:00:56.969+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:56.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:57.444+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:57.441+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T08:00:57.445+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:00:57.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.501 seconds
+[2025-09-09T08:01:27.613+0000] {processor.py:186} INFO - Started process (PID=58806) to work on /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:01:27.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simulation_preprocessing_dag.py for tasks to queue
+[2025-09-09T08:01:27.618+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:27.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:01:27.989+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:27.986+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/simulation_preprocessing_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/simulation_preprocessing_dag.py", line 25, in <module>
+    from ida4sims.db import Molecule
+ModuleNotFoundError: No module named 'ida4sims.db'
+[2025-09-09T08:01:27.990+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/simulation_preprocessing_dag.py
+[2025-09-09T08:01:28.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simulation_preprocessing_dag.py took 0.397 seconds

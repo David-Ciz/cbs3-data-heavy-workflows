@@ -2704,3 +2704,683 @@ Traceback (most recent call last):
 AttributeError: 'function' object has no attribute 'update_relative'
 [2025-09-09T07:43:36.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
 [2025-09-09T07:43:36.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.491 seconds
+[2025-09-09T07:44:06.993+0000] {processor.py:186} INFO - Started process (PID=56249) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:06.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:44:06.996+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:06.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:07.485+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:07.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:44:07.485+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:07.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.508 seconds
+[2025-09-09T07:44:37.656+0000] {processor.py:186} INFO - Started process (PID=56322) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:37.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:44:37.659+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:37.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:38.124+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:38.123+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:44:38.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:44:38.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.483 seconds
+[2025-09-09T07:45:08.347+0000] {processor.py:186} INFO - Started process (PID=56395) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:08.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:45:08.350+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:08.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:08.794+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:08.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:45:08.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:08.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.462 seconds
+[2025-09-09T07:45:39.001+0000] {processor.py:186} INFO - Started process (PID=56468) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:39.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:45:39.004+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:39.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:39.482+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:39.480+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:45:39.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:45:39.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.497 seconds
+[2025-09-09T07:46:10.145+0000] {processor.py:186} INFO - Started process (PID=56541) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:10.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:46:10.151+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:10.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:10.625+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:10.624+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:46:10.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:10.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.502 seconds
+[2025-09-09T07:46:40.976+0000] {processor.py:186} INFO - Started process (PID=56614) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:40.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:46:40.979+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:40.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:41.416+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:41.414+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:46:41.416+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:46:41.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.458 seconds
+[2025-09-09T07:47:11.623+0000] {processor.py:186} INFO - Started process (PID=56687) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:11.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:47:11.627+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:11.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:12.079+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:12.078+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:47:12.079+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:12.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.473 seconds
+[2025-09-09T07:47:42.335+0000] {processor.py:186} INFO - Started process (PID=56760) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:42.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:47:42.338+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:42.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:42.814+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:42.813+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:47:42.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:47:42.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.496 seconds
+[2025-09-09T07:48:13.005+0000] {processor.py:186} INFO - Started process (PID=56833) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:13.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:48:13.010+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:13.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:13.467+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:13.466+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:48:13.467+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:13.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.477 seconds
+[2025-09-09T07:48:43.734+0000] {processor.py:186} INFO - Started process (PID=56906) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:43.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:48:43.736+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:43.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:44.098+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:44.096+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:48:44.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:48:44.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.381 seconds
+[2025-09-09T07:49:14.323+0000] {processor.py:186} INFO - Started process (PID=56979) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:14.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:49:14.327+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:14.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:14.691+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:14.689+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:49:14.692+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:14.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.386 seconds
+[2025-09-09T07:49:44.899+0000] {processor.py:186} INFO - Started process (PID=57052) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:44.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:49:44.903+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:44.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:45.309+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:45.307+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:49:45.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:49:45.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.427 seconds
+[2025-09-09T07:50:15.701+0000] {processor.py:186} INFO - Started process (PID=57125) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:15.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:50:15.706+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:15.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:16.100+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:16.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:50:16.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:16.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.422 seconds
+[2025-09-09T07:50:46.306+0000] {processor.py:186} INFO - Started process (PID=57198) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:46.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:50:46.309+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:46.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:46.697+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:46.695+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:50:46.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:50:46.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.407 seconds
+[2025-09-09T07:51:16.893+0000] {processor.py:186} INFO - Started process (PID=57271) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:16.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:51:16.897+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:16.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:17.284+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:17.282+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:51:17.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:17.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.413 seconds
+[2025-09-09T07:51:47.476+0000] {processor.py:186} INFO - Started process (PID=57344) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:47.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:51:47.481+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:47.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:47.862+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:47.855+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:51:47.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:51:47.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.406 seconds
+[2025-09-09T07:52:18.244+0000] {processor.py:186} INFO - Started process (PID=57417) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:18.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:52:18.248+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:18.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:18.626+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:18.623+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:52:18.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:18.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.401 seconds
+[2025-09-09T07:52:49.092+0000] {processor.py:186} INFO - Started process (PID=57490) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:49.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:52:49.095+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:49.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:49.581+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:49.576+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:52:49.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:52:49.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.505 seconds
+[2025-09-09T07:53:19.880+0000] {processor.py:186} INFO - Started process (PID=57563) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:19.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:53:19.884+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:19.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:20.360+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:20.358+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:53:20.360+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:20.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.497 seconds
+[2025-09-09T07:53:50.560+0000] {processor.py:186} INFO - Started process (PID=57636) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:50.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:53:50.563+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:50.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:51.039+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:51.038+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 192, in <module>
+    fetch_data >> resolve >> upload_results
+    ~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskmixin.py", line 215, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-09-09T07:53:51.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:51.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.494 seconds
+[2025-09-09T07:53:58.337+0000] {processor.py:186} INFO - Started process (PID=57658) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:58.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:53:58.340+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:58.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:59.037+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:59.036+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:53:59.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:53:59.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.720 seconds
+[2025-09-09T07:54:29.431+0000] {processor.py:186} INFO - Started process (PID=57731) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:54:29.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:54:29.434+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:29.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:54:29.939+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:29.937+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:54:29.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:54:29.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.524 seconds
+[2025-09-09T07:55:00.652+0000] {processor.py:186} INFO - Started process (PID=57810) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:00.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:55:00.656+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:00.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:01.183+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:01.181+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:55:01.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:01.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.545 seconds
+[2025-09-09T07:55:31.941+0000] {processor.py:186} INFO - Started process (PID=57889) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:31.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:55:31.946+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:31.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:32.384+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:32.383+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:55:32.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:55:32.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.458 seconds
+[2025-09-09T07:56:02.783+0000] {processor.py:186} INFO - Started process (PID=57968) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:02.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:56:02.786+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:02.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:03.339+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:03.337+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:56:03.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:03.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.579 seconds
+[2025-09-09T07:56:33.782+0000] {processor.py:186} INFO - Started process (PID=58047) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:33.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:56:33.789+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:33.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:34.512+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:34.510+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:56:34.512+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:56:34.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.760 seconds
+[2025-09-09T07:57:04.583+0000] {processor.py:186} INFO - Started process (PID=58131) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:04.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:57:04.584+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:04.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:05.130+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:05.129+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:57:05.131+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:05.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.562 seconds
+[2025-09-09T07:57:35.236+0000] {processor.py:186} INFO - Started process (PID=58205) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:35.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:57:35.241+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:35.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:35.808+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:35.806+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:57:35.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:57:35.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.587 seconds
+[2025-09-09T07:58:06.009+0000] {processor.py:186} INFO - Started process (PID=58284) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:06.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:58:06.013+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:06.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:06.424+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:06.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:58:06.424+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:06.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.440 seconds
+[2025-09-09T07:58:36.748+0000] {processor.py:186} INFO - Started process (PID=58363) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:36.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:58:36.751+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:36.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:37.105+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:37.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:58:37.105+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:58:37.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.372 seconds
+[2025-09-09T07:59:07.460+0000] {processor.py:186} INFO - Started process (PID=58442) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:07.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:59:07.464+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:07.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:07.836+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:07.835+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:59:07.837+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:07.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.394 seconds
+[2025-09-09T07:59:38.175+0000] {processor.py:186} INFO - Started process (PID=58521) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:38.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T07:59:38.178+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:38.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:38.558+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:38.557+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T07:59:38.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T07:59:38.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.401 seconds
+[2025-09-09T08:00:08.819+0000] {processor.py:186} INFO - Started process (PID=58600) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:08.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T08:00:08.824+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:08.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:09.181+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:09.180+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T08:00:09.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:09.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.376 seconds
+[2025-09-09T08:00:39.363+0000] {processor.py:186} INFO - Started process (PID=58679) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:39.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T08:00:39.366+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:39.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:39.730+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:39.729+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T08:00:39.730+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:00:39.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.383 seconds
+[2025-09-09T08:01:10.162+0000] {processor.py:186} INFO - Started process (PID=58758) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:10.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T08:01:10.165+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:10.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:10.541+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:10.540+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 162, in <module>
+    python_callable=upload_results,
+                    ^^^^^^^^^^^^^^
+NameError: name 'upload_results' is not defined
+[2025-09-09T08:01:10.541+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:10.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.395 seconds
+[2025-09-09T08:01:34.801+0000] {processor.py:186} INFO - Started process (PID=58837) to work on /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:34.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_transposition.py for tasks to queue
+[2025-09-09T08:01:34.807+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:34.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:35.309+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:35.306+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5_transposition.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/5_transposition.py", line 160, in <module>
+    fetch_data >> resolve >> transpose >> upload
+                                          ^^^^^^
+NameError: name 'upload' is not defined
+[2025-09-09T08:01:35.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5_transposition.py
+[2025-09-09T08:01:35.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_transposition.py took 0.540 seconds

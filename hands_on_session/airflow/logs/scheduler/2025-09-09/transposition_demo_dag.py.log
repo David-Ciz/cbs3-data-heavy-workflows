@@ -859,3 +859,248 @@
 [2025-09-09T07:43:36.823+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:43:36.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-09T07:43:36.829+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:43:36.829+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
 [2025-09-09T07:43:36.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.501 seconds
+[2025-09-09T07:44:06.997+0000] {processor.py:186} INFO - Started process (PID=56252) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:06.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:44:07.001+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:07.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:07.480+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:07.498+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:07.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:44:07.504+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:07.504+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:44:07.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.520 seconds
+[2025-09-09T07:44:37.661+0000] {processor.py:186} INFO - Started process (PID=56325) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:37.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:44:37.665+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:37.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:38.124+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:44:38.144+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:38.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:44:38.149+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:44:38.149+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:44:38.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.499 seconds
+[2025-09-09T07:45:08.354+0000] {processor.py:186} INFO - Started process (PID=56398) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:08.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:45:08.358+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:08.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:08.795+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:08.813+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:08.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:45:08.820+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:08.820+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:45:08.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.478 seconds
+[2025-09-09T07:45:39.009+0000] {processor.py:186} INFO - Started process (PID=56471) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:39.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:45:39.012+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:39.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:39.462+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:45:39.478+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:39.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:45:39.485+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:45:39.485+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:45:39.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.493 seconds
+[2025-09-09T07:46:10.151+0000] {processor.py:186} INFO - Started process (PID=56544) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:10.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:46:10.157+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:10.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:10.625+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:10.644+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:10.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:46:10.652+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:10.652+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:46:10.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.517 seconds
+[2025-09-09T07:46:40.984+0000] {processor.py:186} INFO - Started process (PID=56617) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:40.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:46:40.988+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:40.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:41.415+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:46:41.436+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:41.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:46:41.445+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:46:41.445+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:46:41.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.477 seconds
+[2025-09-09T07:47:11.630+0000] {processor.py:186} INFO - Started process (PID=56690) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:11.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:47:11.634+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:11.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:12.077+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:12.094+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:12.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:47:12.102+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:12.102+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:47:12.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.488 seconds
+[2025-09-09T07:47:42.342+0000] {processor.py:186} INFO - Started process (PID=56763) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:42.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:47:42.347+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:42.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:42.814+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:47:42.835+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:42.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:47:42.846+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:47:42.846+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:47:42.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.522 seconds
+[2025-09-09T07:48:13.103+0000] {processor.py:186} INFO - Started process (PID=56836) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:13.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:48:13.106+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:13.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:13.457+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:13.478+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:13.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:48:13.484+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:13.484+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:48:13.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.396 seconds
+[2025-09-09T07:48:43.736+0000] {processor.py:186} INFO - Started process (PID=56909) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:43.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:48:43.738+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:43.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:44.094+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:48:44.114+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:44.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:48:44.120+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:48:44.120+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:48:44.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.400 seconds
+[2025-09-09T07:49:14.330+0000] {processor.py:186} INFO - Started process (PID=56982) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:14.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:49:14.335+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:14.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:14.688+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:14.709+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:14.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:49:14.719+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:14.719+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:49:14.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.406 seconds
+[2025-09-09T07:49:44.907+0000] {processor.py:186} INFO - Started process (PID=57055) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:44.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:49:44.912+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:44.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:45.299+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:49:45.321+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:45.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:49:45.329+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:49:45.329+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:49:45.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.440 seconds
+[2025-09-09T07:50:15.707+0000] {processor.py:186} INFO - Started process (PID=57128) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:15.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:50:15.714+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:15.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:16.093+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:16.120+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:16.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:50:16.129+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:16.129+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:50:16.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.440 seconds
+[2025-09-09T07:50:46.312+0000] {processor.py:186} INFO - Started process (PID=57201) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:46.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:50:46.317+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:46.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:46.698+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:50:46.722+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:46.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:50:46.730+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:50:46.730+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:50:46.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.431 seconds
+[2025-09-09T07:51:16.896+0000] {processor.py:186} INFO - Started process (PID=57274) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:16.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:51:16.901+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:16.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:17.284+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:17.305+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:17.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:51:17.315+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:17.315+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:51:17.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.436 seconds
+[2025-09-09T07:51:47.482+0000] {processor.py:186} INFO - Started process (PID=57347) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:47.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:51:47.484+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:47.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:47.843+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:51:47.864+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:47.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:51:47.873+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:51:47.873+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:51:47.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.406 seconds
+[2025-09-09T07:52:18.251+0000] {processor.py:186} INFO - Started process (PID=57420) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:18.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:52:18.257+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:18.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:18.622+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:18.647+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:18.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:52:18.655+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:18.655+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:52:18.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.420 seconds
+[2025-09-09T07:52:49.096+0000] {processor.py:186} INFO - Started process (PID=57493) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:49.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:52:49.099+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:49.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:49.459+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:52:49.595+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:49.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:52:49.602+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:52:49.602+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:52:49.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.524 seconds
+[2025-09-09T07:53:19.890+0000] {processor.py:186} INFO - Started process (PID=57566) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:19.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:53:19.893+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:19.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:20.360+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:20.379+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:20.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:53:20.390+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:20.390+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:53:20.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.517 seconds
+[2025-09-09T07:53:50.567+0000] {processor.py:186} INFO - Started process (PID=57639) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:50.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:53:50.569+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:50.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:51.039+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:53:51.060+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:51.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:53:51.068+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:53:51.068+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:53:51.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.516 seconds
+[2025-09-09T07:54:21.180+0000] {processor.py:186} INFO - Started process (PID=57715) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:21.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:54:21.184+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:21.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:21.693+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:21.710+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:21.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:54:21.716+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:21.715+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:54:21.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.551 seconds
+[2025-09-09T07:54:51.950+0000] {processor.py:186} INFO - Started process (PID=57791) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:51.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:54:51.954+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:51.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:52.415+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:54:52.435+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:52.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:54:52.441+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:54:52.441+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:54:52.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.508 seconds
+[2025-09-09T07:55:23.287+0000] {processor.py:186} INFO - Started process (PID=57870) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:23.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:55:23.292+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:23.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:23.744+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:23.769+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:23.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:55:23.780+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:23.780+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:55:23.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.511 seconds
+[2025-09-09T07:55:53.992+0000] {processor.py:186} INFO - Started process (PID=57949) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:53.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:55:53.996+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:53.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:54.546+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:55:54.570+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:54.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:55:54.580+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:55:54.580+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:55:54.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.604 seconds
+[2025-09-09T07:56:24.970+0000] {processor.py:186} INFO - Started process (PID=58028) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:24.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:56:24.974+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:24.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:25.454+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:25.476+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:25.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:56:25.485+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:25.485+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:56:25.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.535 seconds
+[2025-09-09T07:56:55.756+0000] {processor.py:186} INFO - Started process (PID=58107) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:55.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:56:55.762+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:55.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:56.199+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:56:56.218+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:56.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:56:56.225+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:56:56.225+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:56:56.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.482 seconds
+[2025-09-09T07:57:26.501+0000] {processor.py:186} INFO - Started process (PID=58186) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:26.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:57:26.505+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:26.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:26.981+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:27.002+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:27.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:57:27.010+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:27.009+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:57:27.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.522 seconds
+[2025-09-09T07:57:57.364+0000] {processor.py:186} INFO - Started process (PID=58265) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:57.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:57:57.367+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:57.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:57.743+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:57:57.768+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:57.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:57:57.776+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:57:57.776+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:57:57.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.428 seconds
+[2025-09-09T07:58:28.119+0000] {processor.py:186} INFO - Started process (PID=58344) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:28.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:58:28.122+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:28.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:28.513+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:28.532+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:28.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:58:28.539+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:28.539+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:58:28.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.435 seconds
+[2025-09-09T07:58:58.883+0000] {processor.py:186} INFO - Started process (PID=58423) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:58.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:58:58.888+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:58.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:59.246+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:58:59.266+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:59.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:58:59.274+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:58:59.274+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:58:59.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.404 seconds
+[2025-09-09T07:59:29.519+0000] {processor.py:186} INFO - Started process (PID=58502) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:59:29.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T07:59:29.529+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:29.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:59:29.922+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T07:59:29.946+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:29.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T07:59:29.955+0000] {logging_mixin.py:190} INFO - [2025-09-09T07:59:29.955+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T07:59:29.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.455 seconds
+[2025-09-09T08:00:00.234+0000] {processor.py:186} INFO - Started process (PID=58581) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:00.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T08:00:00.240+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:00.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:00.610+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:00.631+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:00.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T08:00:00.639+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:00.639+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T08:00:00.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.422 seconds
+[2025-09-09T08:00:30.711+0000] {processor.py:186} INFO - Started process (PID=58660) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:30.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T08:00:30.715+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:30.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:31.094+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:00:31.128+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:31.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T08:00:31.137+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:00:31.137+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T08:00:31.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.451 seconds
+[2025-09-09T08:01:01.511+0000] {processor.py:186} INFO - Started process (PID=58739) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:01.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T08:01:01.516+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:01.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:01.902+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:01.926+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:01.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T08:01:01.935+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:01.935+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T08:01:01.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.442 seconds
+[2025-09-09T08:01:32.111+0000] {processor.py:186} INFO - Started process (PID=58818) to work on /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:32.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transposition_demo_dag.py for tasks to queue
+[2025-09-09T08:01:32.116+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:32.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:32.556+0000] {processor.py:925} INFO - DAG(s) 'transposition_demo' retrieved from /opt/airflow/dags/transposition_demo_dag.py
+[2025-09-09T08:01:32.584+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:32.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-09T08:01:32.596+0000] {logging_mixin.py:190} INFO - [2025-09-09T08:01:32.596+0000] {dag.py:4180} INFO - Setting next_dagrun for transposition_demo to None, run_after=None
+[2025-09-09T08:01:32.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transposition_demo_dag.py took 0.504 seconds

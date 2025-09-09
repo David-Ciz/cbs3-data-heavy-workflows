@@ -93,33 +93,6 @@ def resolve_inputs(**context) -> None:
     ti.xcom_push(key="ptraj_in", value=ptraj_in)
     ti.xcom_push(key="out_dir", value=out_dir)
 
-def upload_results(**context) -> None:
-    out_dir = context["ti"].xcom_pull(task_ids="resolve_inputs", key="out_dir")
-    if not out_dir:
-        raise RuntimeError("out_dir not set")
-
-    dataset_id = context['dag_run'].conf.get('dataset_id') or context['params']['dataset_id']
-    if not dataset_id:
-        raise ValueError("No dataset_id provided. Set Variable UNIFIED_DATASET_ID or pass it in conf/params.")
-
-    refresh_token = Variable.get("lexis_refresh_token")
-    session = LexisSessionOffline(refresh_token=refresh_token)
-    irods = iRODS(session=session, suppress_print=False)
-
-    # Create a new dataset for the results
-    new_dataset_id = irods.create_empty_dataset(access="project", project=PROJECT_SHORTNAME, title=f"Results for {dataset_id}", description="Results uploaded by Airflow DAG")
-    print(f"Created new dataset {new_dataset_id} for results.")
-
-    # Upload all files from out_dir to the new dataset
-    for root, _dirs, files in os.walk(out_dir):
-        for fn in files:
-            local_path = os.path.join(root, fn)
-            relative_path = os.path.relpath(local_path, out_dir)
-            irods.upload_file_to_dataset(access="project", project=PROJECT_SHORTNAME, dataset_id=new_dataset_id, local_filepath=local_path, dest_filepath=relative_path)
-            print(f"Uploaded {relative_path} to dataset {new_dataset_id}.")
-
-    print(f"All results uploaded to dataset {new_dataset_id}.")
-
 def transpose_into_hdf5(**context) -> None:
 
     top = context["ti"].xcom_pull(task_ids="resolve_inputs", key="top")
@@ -184,9 +157,4 @@ with DAG(
         python_callable=transpose_into_hdf5,
     )
 
-    upload = PythonOperator(
-        task_id="upload_results",
-        python_callable=upload_results,
-    )
-
-    fetch_data >> resolve >> upload_results
+    fetch_data >> resolve >> transpose >> upload
